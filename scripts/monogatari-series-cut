@@ -1,0 +1,62 @@
+#!/bin/sh
+
+# Create Monogatari Series folder
+mkdir --parents build/monogatari-series
+
+# Go to Monogatari Series folder
+cd build/monogatari-series
+
+# Cut video and burn subtitles into video
+cut() {
+  in=$1 start=$2 end=$3 out=$4
+  if test -e "$out"; then
+    echo "Up-to-date: $out"
+  else
+    extension=${in##*.}
+    cut=cut.$extension
+    ffmpeg-cut -out "$cut" "$in" "$start" "$end"
+    ffmpeg-burn -out "file:$out" "$cut"
+    rm "$cut"
+    echo "Done: $out"
+  fi
+}
+
+# Take a screenshot with subtitles
+shot() {
+  in=$1 position=$2 out=$3
+  if test -e "$out"; then
+    echo "Up-to-date: $out"
+  else
+    extension=${in##*.}
+    cut=cut.$extension
+    ffmpeg-cut -out "$cut" "$in" "$position"
+    ffmpeg-burn -out "file:$out" "$cut"
+    rm "$cut"
+    echo "Done: $out"
+  fi
+}
+
+cut ~/videos/animes/monogatari-series/01.bakemonogatari/08.mkv 07:04 07:13 bakemonogatari-08-07:04-07:13.webm
+cut ~/videos/animes/monogatari-series/01.bakemonogatari/11.mkv 01:36 01:47 bakemonogatari-11-01:36-01:47.webm
+cut ~/videos/animes/monogatari-series/01.bakemonogatari/12.mkv 16:58 23:53 bakemonogatari-12-16:58-23:53.webm
+cut ~/videos/animes/monogatari-series/02.kizumonogatari/02.mkv 47:44 48:44 kizumonogatari-02-47:44-48:44.webm
+cut ~/videos/animes/monogatari-series/03.nisemonogatari/01.mkv 08:01 09:38 nisemonogatari-01-08:01-09:38.webm
+cut ~/videos/animes/monogatari-series/03.nisemonogatari/01.mkv 17:06 17:50 nisemonogatari-01-17:06-17:50.webm
+cut ~/videos/animes/monogatari-series/03.nisemonogatari/01.mkv 17:45 21:35 nisemonogatari-01-17:45-21:35.webm
+cut ~/videos/animes/monogatari-series/03.nisemonogatari/01.mkv 21:34 22:16 nisemonogatari-01-21:34-22:16.webm
+cut ~/videos/animes/monogatari-series/03.nisemonogatari/02.mkv 20:07 20:28 nisemonogatari-02-20:07-20:28.webm
+shot ~/videos/animes/monogatari-series/03.nisemonogatari/06.mkv 06:57 nisemonogatari-06-06:57.webp
+cut ~/videos/animes/monogatari-series/03.nisemonogatari/07.mkv 05:22 09:40 nisemonogatari-07-05:22-09:40.webm
+cut ~/videos/animes/monogatari-series/05.monogatari-series-second-season/01.nekomonogatari-white/02.mkv 17:57 22:40 nekomonogatari-white-02-17:57-22:40.webm
+cut ~/videos/animes/monogatari-series/05.monogatari-series-second-season/01.nekomonogatari-white/03.mkv 15:09 15:54 nekomonogatari-white-03-15:09-15:54.webm
+cut ~/videos/animes/monogatari-series/05.monogatari-series-second-season/02.kabukimonogatari/01.mkv 06:34 07:08 kabukimonogatari-01-06:34-07:08.webm
+cut ~/videos/animes/monogatari-series/05.monogatari-series-second-season/05.koimonogatari/05.mkv 20:18 21:30 koimonogatari-05-20:18-21:30.webm
+cut ~/videos/animes/monogatari-series/05.monogatari-series-second-season/05.koimonogatari/06.mkv 07:50 17:03 koimonogatari-06-07:50-17:03.webm
+cut ~/videos/animes/monogatari-series/05.monogatari-series-second-season/06.hanamonogatari/01.mkv 24:36 25:04 hanamonogatari-01-24:36-25:04.webm
+cut ~/videos/animes/monogatari-series/05.monogatari-series-second-season/06.hanamonogatari/04.mkv 17:08 23:47 hanamonogatari-04-17:08-23:47.webm
+# Processing abandoned
+# The video could not be processed
+# cut ~/videos/animes/monogatari-series/06.tsukimonogatari/03.mkv 00:08 00:22 tsukimonogatari-03-00:08-00:22.webm
+cut ~/videos/animes/monogatari-series/07.owarimonogatari/09.mkv 06:34 08:44 owarimonogatari-09-06:34-08:44.webm
+cut ~/videos/animes/monogatari-series/07.owarimonogatari/13.mkv 00:00 03:08 owarimonogatari-13-00:00-03:08.webm
+cut ~/videos/animes/monogatari-series/08.koyomimonogatari/05.mkv 06:06 09:23 koyomimonogatari-05-06:06-09:23.webm
