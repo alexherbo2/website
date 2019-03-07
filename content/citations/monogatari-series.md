@@ -1,4 +1,6 @@
-# Monogatari Series
+---
+title: Monogatari Series
+---
 
 ## Informations
 

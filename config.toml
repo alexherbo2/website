@@ -1,0 +1,42 @@
+baseURL = "https://alexherbo2.github.io"
+languageCode = "en-us"
+title = "Alex"
+theme = "steve-losh"
+
+buildDrafts = true
+enableGitInfo = true
+
+[params]
+  # https://golang.org/pkg/time#pkg-constants
+  dateForm = "January 2, 2006"
+  icon = "https://github.com/favicon.ico"
+
+[params.pages]
+  raw = "https://github.com/alexherbo2/website/raw/master/content/%s"
+  history = "https://github.com/alexherbo2/website/commits/master/content/%s"
+
+[params.host]
+  name = "GitHub"
+  repository = "https://github.com/alexherbo2/website"
+
+[menu]
+
+  [[menu.social]]
+    name = "GitHub"
+    url = "https://github.com/alexherbo2"
+
+  [[menu.social]]
+    name = "YouTube"
+    url = "https://youtube.com/channel/UCv9nzkds34PnGOu6u_QvVBQ"
+
+  [[menu.navigation]]
+    name = "Blog"
+    url = "/blog"
+
+  [[menu.navigation]]
+    name = "Citations"
+    url = "/citations"
+
+  [[menu.navigation]]
+    name = "Projects"
+    url = "https://github.com/alexherbo2?tab=repositories"

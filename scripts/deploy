@@ -1,0 +1,51 @@
+#!/bin/sh
+
+abort() {
+  exit $?
+}
+
+# Exit on error
+trap abort ERR
+
+# Colors
+green='\033[32m'
+default='\033[0m'
+
+message() {
+  printf "${green}%s${default}\n" "${*}"
+}
+
+message Deploying updates to GitHub…
+
+# Variables
+branch=$(git rev-parse --abbrev-ref HEAD)
+revision=$(git rev-parse HEAD)
+revision_short=$(git rev-parse --short HEAD)
+
+# Make sure the Public folder is sync with the remote repository
+if test ! -e public/.git; then
+  message Cloning remote into Public/
+  rm --force --recursive public
+  git clone git@github.com:alexherbo2/alexherbo2.github.io public
+else
+  message Syncing remote to Public/
+  cd public
+  git pull
+  cd -
+fi
+
+message Building the site…
+make build
+
+message Publishing…
+cd public
+git add .
+git commit --file - <<EOF
+Build $branch/$revision_short
+
+https://github.com/alexherbo2/website/commit/$revision
+EOF
+git push
+
+message Successfully built $branch/$revision_short
+message https://github.com/alexherbo2/website/commit/$revision
