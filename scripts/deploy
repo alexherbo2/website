@@ -34,6 +34,12 @@ else
   cd -
 fi
 
+message Removing previous build commits before deploying…
+cd public
+GIT_EDITOR="sed '/^pick .* Build/d' --in-place" \
+git rebase --root --interactive
+cd -
+
 message Building the site…
 make build
 
@@ -45,7 +51,7 @@ Build $branch/$revision_short
 
 https://github.com/alexherbo2/website/commit/$revision
 EOF
-git push
+git push --force
 
 message Successfully built $branch/$revision_short
 message https://github.com/alexherbo2/website/commit/$revision
