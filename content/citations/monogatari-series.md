@@ -17,10 +17,13 @@ Aired: 2009-07-03 → 2010-06-25
 
 ``` yaml
 Added: 2018-02-25
-Position: 07:04 → 07:13
 ```
 
 [Bakemonogatari – Episode 8 – 07:04 → 07:13](https://youtu.be/NsS5bowGsBk)
+
+``` yaml
+Position: 07:04 → 07:13
+```
 
 > [Suruga Kanbaru][]: W-Will you save me?
 >
@@ -33,10 +36,13 @@ Position: 07:04 → 07:13
 
 ``` yaml
 Added: 2018-02-25
-Position: 01:36 → 01:47
 ```
 
 [Bakemonogatari – Episode 11 – 01:36 → 01:47](https://youtu.be/Z7Mm-vUY5xo)
+
+``` yaml
+Position: 01:36 → 01:47
+```
 
 > [Tsubasa Hanekawa][]: Well, I like to take walks on days off, because I don’t want to be at home.
 > Spending a whole day at home with my parents… freaks me out.
@@ -46,10 +52,13 @@ Position: 01:36 → 01:47
 
 ``` yaml
 Added: 2019-02-05
-Position: 16:58 → 23:53
 ```
 
 [Bakemonogatari – Episode 12 – 16:58 → 23:53](https://youtu.be/FlrueIR3Mg0)
+
+``` yaml
+Position: 16:58 → 23:53
+```
 
 > Scene: Senjougahara, what is this place?
 >
@@ -216,10 +225,13 @@ Aired: 2016-01-08 → 2017-01-06
 ``` yaml
 Added: 2017-12-30
 Aired: 2016-08-19
-Position: 47:44 → 48:44
 ```
 
 [Kizumonogatari II: Nekketsu-hen – 47:44 → 48:44](https://youtu.be/Oiv-0AQnvbg)
+
+``` yaml
+Position: 47:44 → 48:44
+```
 
 > [Tsubasa Hanekawa][]: Hey Araragi-kun, want a sandwich?
 > This one has tomatoes.
@@ -258,10 +270,13 @@ Aired: 2012-01-08 → 2012-03-18
 
 ``` yaml
 Added: 2018-03-14
-Position: 08:01 → 09:38
 ```
 
 [Nisemonogatari – Episode 1 – 08:01 → 09:38](https://youtu.be/3DSAzAPVN24)
+
+``` yaml
+Position: 08:01 → 09:38
+```
 
 > [Koyomi Araragi][]: Hey, where is she?
 >
@@ -304,11 +319,11 @@ Position: 08:01 → 09:38
 > [Koyomi Araragi][]: But the fights you two get involved with are always violent.
 > I refuse to believe that’s the right way to fight.
 
+[Nisemonogatari – Episode 1 – 17:06 → 17:50](https://youtu.be/jdLZLL91e7Y)
+
 ``` yaml
 Position: 17:06 → 17:50
 ```
-
-[Nisemonogatari – Episode 1 – 17:06 → 17:50](https://youtu.be/jdLZLL91e7Y)
 
 > [Mayoi Hachikuji][]: I see, a vampire.
 > But what about it?
@@ -328,11 +343,11 @@ Position: 17:06 → 17:50
 >
 > [Mayoi Hachikuji][]: Right now, what you need is the courage to keep your secret to yourself!
 
+[Nisemonogatari – Episode 1 – 17:45 → 21:35](https://youtu.be/6ZwiLcE9APE)
+
 ``` yaml
 Position: 17:45 → 21:35
 ```
-
-[Nisemonogatari – Episode 1 – 17:45 → 21:35](https://youtu.be/6ZwiLcE9APE)
 
 > [Mayoi Hachikuji][]: Right now, what you need is the courage to keep your secret to yourself!
 >
@@ -456,11 +471,11 @@ Position: 17:45 → 21:35
 > [Mayoi Hachikuji][]: L-Like this?
 > Like this?
 
+[Nisemonogatari – Episode 1 – 21:34 → 22:16](https://youtu.be/A9gVLrElETY)
+
 ``` yaml
 Position: 21:34 → 22:16
 ```
-
-[Nisemonogatari – Episode 1 – 21:34 → 22:16](https://youtu.be/A9gVLrElETY)
 
 > [Koyomi Araragi][]: Oh, yeah.
 > We were talking about the need to keep the apparitions a secret, right?
@@ -488,10 +503,13 @@ Position: 21:34 → 22:16
 
 ``` yaml
 Added: 2018-03-22
-Position: 20:07 → 20:28
 ```
 
 [Nisemonogatari – Episode 2 – 20:07 → 20:28](https://youtu.be/jWzWWYe74Fw)
+
+``` yaml
+Position: 20:07 → 20:28
+```
 
 > [Koyomi Araragi][]: But all of these look the same…
 > Can you tell the difference when you read them?
@@ -506,10 +524,13 @@ Position: 20:07 → 20:28
 
 ``` yaml
 Added: 2018-03-14
-Position: 06:57
 ```
 
 [![Nisemonogatari – Episode 6 – 06:57](https://i.imgur.com/3JuySL3.png)](https://imgur.com/3JuySL3)
+
+``` yaml
+Position: 06:57
+```
 
 > [Koyomi Araragi]’s thoughts about [Karen Araragi]: Her radius of activity is very different when on a bicycle than on foot.
 
@@ -517,10 +538,13 @@ Position: 06:57
 
 ``` yaml
 Added: 2018-05-21
-Position: 05:22 → 09:40
 ```
 
 [Nisemonogatari – Episode 7 – 05:22 → 09:40](https://youtu.be/ZGU9sHxgHLQ)
+
+``` yaml
+Position: 05:22 → 09:40
+```
 
 > [Karen Araragi][]: Give me a break.
 > My fists hurt from hitting you.
@@ -642,10 +666,13 @@ Aired: 2013-07-07 → 2013-12-29
 
 ``` yaml
 Added: 2018-06-22
-Position: 17:57 → 22:40
 ```
 
 [Nekomonogatari: White – Episode 2 – 17:57 → 22:40](https://youtu.be/OIhG9jbg0m4)
+
+``` yaml
+Position: 17:57 → 22:40
+```
 
 > [Hitagi Senjougahara][]: Wow, this looks good.
 >
@@ -818,10 +845,13 @@ Position: 17:57 → 22:40
 
 ``` yaml
 Added: 2018-08-15
-Position: 15:09 → 15:54
 ```
 
 [Nekomonogatari: White – Episode 3 – 15:09 → 15:54](https://youtu.be/vpSVq8Nl1rQ)
+
+``` yaml
+Position: 15:09 → 15:54
+```
 
 > [Karen Araragi][]: You’re not very snobby, are you, Tsubasa?
 > I mean, when I’m talking to the so-called brainiacs at school,
@@ -848,10 +878,13 @@ Aired: 2013-07-07 → 2013-12-29
 
 ``` yaml
 Added: 2018-06-22
-Position: 06:34 → 07:08
 ```
 
 [Kabukimonogatari – Episode 1 – 06:34 → 07:08](https://youtu.be/dO49zKIy4IY)
+
+``` yaml
+Position: 06:34 → 07:08
+```
 
 > [Koyomi Araragi][]: That makes you a familiar with quite some freedom, then.
 > Come to think of it, weren’t you alone and lost when I first met you?
@@ -888,10 +921,13 @@ Aired: 2013-07-07 → 2013-12-29
 
 ``` yaml
 Added: 2018-07-17
-Position: 20:18 → 21:30
 ```
 
 [Koimonogatari – Episode 5 – 20:18 → 21:30](https://youtu.be/1_U5ExdaMNo)
+
+``` yaml
+Position: 20:18 → 21:30
+```
 
 > [Nadeko Sengoku][]: Oh yeah, Kaiki.
 > Don’t you think it’s about time you told me?
@@ -921,10 +957,13 @@ Position: 20:18 → 21:30
 
 ``` yaml
 Added: 2018-07-17
-Position: 07:50 → 17:03
 ```
 
 [Koimonogatari – Episode 6 – 07:50 → 17:03](https://youtu.be/SoZqW-47ypE)
+
+``` yaml
+Position: 07:50 → 17:03
+```
 
 > [Deishuu Kaiki][]: Sengoku.
 > You said that you didn’t want to be a god, right?
@@ -1123,10 +1162,13 @@ Aired: 2014-08-16
 
 ``` yaml
 Added: 2018-07-19
-Position: 24:36 → 25:04
 ```
 
 [Hanamonogatari – Episode 1 – 24:36 → 25:04](https://youtu.be/zSL8ZtvQpho)
+
+``` yaml
+Position: 24:36 → 25:04
+```
 
 > [Rouka Numachi][]: People look smart when they put on a serious face and rack their brains,
 > but they’ve got it all wrong.
@@ -1141,10 +1183,13 @@ Position: 24:36 → 25:04
 
 ``` yaml
 Added: 2018-07-23
-Position: 17:08 → 23:47
 ```
 
 [Hanamonogatari – Episode 4 – 17:08 → 23:47](https://youtu.be/N_pht9x5fFE)
+
+``` yaml
+Position: 17:08 → 23:47
+```
 
 > [Suruga Kanbaru][]: Sorry.  I’ll get out of the way.
 >
@@ -1329,11 +1374,11 @@ Aired: 2014-12-31
 
 ### Episode 3
 
+[Tsukimonogatari – Episode 3 – 00:08 → 00:22](/dev/null)
+
 ``` yaml
 Position: 00:08 → 00:22
 ```
-
-[Tsukimonogatari – Episode 3 – 00:08 → 00:22](/dev/null)
 
 > [Koyomi Araragi]’s voice-over: There is no way to return.
 > No way to treat it.
@@ -1349,10 +1394,13 @@ Aired: 2015-10-04 → 2015-12-20
 
 ``` yaml
 Added: 2018-09-28
-Position: 06:34 → 08:44
 ```
 
 [Owarimonogatari – Episode 9 – 06:34 → 08:44](https://youtu.be/692Sja0gfPk)
+
+``` yaml
+Position: 06:34 → 08:44
+```
 
 > [Yotsugi Ononoki][]: Kneel, Devil Brother.
 >
@@ -1427,10 +1475,13 @@ Position: 06:34 → 08:44
 
 ``` yaml
 Added: 2018-10-03
-Position: 00:00 → 03:08
 ```
 
 [Owarimonogatari – Episode 13 – 00:00 → 03:08](https://youtu.be/EOTdH8KLjJY)
+
+``` yaml
+Position: 00:00 → 03:08
+```
 
 > [Koyomi Araragi][]: Hey, Senjougahara.
 >
@@ -1536,10 +1587,13 @@ Aired: 2016-01-10 → 2016-03-27
 
 ``` yaml
 Added: 2018-10-08
-Position: 06:06 → 09:23
 ```
 
 [Koyomimonogatari – Episode 5 – 06:06 → 09:23](https://youtu.be/DkDi9QcZcB4)
+
+``` yaml
+Position: 06:06 → 09:23
+```
 
 > [Koyomi Araragi]’s voice-over: Now for the epilogue, or rather, the punch line.
 >
