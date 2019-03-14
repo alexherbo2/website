@@ -19,7 +19,7 @@ Aired: 2009-07-03 → 2010-06-25
 Added: 2018-02-25
 ```
 
-[Bakemonogatari – Episode 8 – 07:04 → 07:13](https://youtu.be/NsS5bowGsBk)
+[Bakemonogatari – Episode 8 – 07:04 → 07:13](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/bakemonogatari-08-07:04-07:13.webm)
 
 ``` yaml
 Position: 07:04 → 07:13
@@ -38,7 +38,7 @@ Position: 07:04 → 07:13
 Added: 2018-02-25
 ```
 
-[Bakemonogatari – Episode 11 – 01:36 → 01:47](https://youtu.be/Z7Mm-vUY5xo)
+[Bakemonogatari – Episode 11 – 01:36 → 01:47](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/bakemonogatari-11-01:36-01:47.webm)
 
 ``` yaml
 Position: 01:36 → 01:47
@@ -54,7 +54,7 @@ Position: 01:36 → 01:47
 Added: 2019-02-05
 ```
 
-[Bakemonogatari – Episode 12 – 16:58 → 23:53](https://youtu.be/FlrueIR3Mg0)
+[Bakemonogatari – Episode 12 – 16:58 → 23:53](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/bakemonogatari-12-16:58-23:53.webm)
 
 ``` yaml
 Position: 16:58 → 23:53
@@ -227,7 +227,7 @@ Added: 2017-12-30
 Aired: 2016-08-19
 ```
 
-[Kizumonogatari II: Nekketsu-hen – 47:44 → 48:44](https://youtu.be/Oiv-0AQnvbg)
+[Kizumonogatari II: Nekketsu-hen – 47:44 → 48:44](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/kizumonogatari-02-47:44-48:44.webm)
 
 ``` yaml
 Position: 47:44 → 48:44
@@ -272,7 +272,7 @@ Aired: 2012-01-08 → 2012-03-18
 Added: 2018-03-14
 ```
 
-[Nisemonogatari – Episode 1 – 08:01 → 09:38](https://youtu.be/3DSAzAPVN24)
+[Nisemonogatari – Episode 1 – 08:01 → 09:38](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/nisemonogatari-01-08:01-09:38.webm)
 
 ``` yaml
 Position: 08:01 → 09:38
@@ -319,7 +319,7 @@ Position: 08:01 → 09:38
 > [Koyomi Araragi][]: But the fights you two get involved with are always violent.
 > I refuse to believe that’s the right way to fight.
 
-[Nisemonogatari – Episode 1 – 17:06 → 17:50](https://youtu.be/jdLZLL91e7Y)
+[Nisemonogatari – Episode 1 – 17:06 → 17:50](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/nisemonogatari-01-17:06-17:50.webm)
 
 ``` yaml
 Position: 17:06 → 17:50
@@ -343,7 +343,7 @@ Position: 17:06 → 17:50
 >
 > [Mayoi Hachikuji][]: Right now, what you need is the courage to keep your secret to yourself!
 
-[Nisemonogatari – Episode 1 – 17:45 → 21:35](https://youtu.be/6ZwiLcE9APE)
+[Nisemonogatari – Episode 1 – 17:45 → 21:35](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/nisemonogatari-01-17:45-21:35.webm)
 
 ``` yaml
 Position: 17:45 → 21:35
@@ -471,7 +471,7 @@ Position: 17:45 → 21:35
 > [Mayoi Hachikuji][]: L-Like this?
 > Like this?
 
-[Nisemonogatari – Episode 1 – 21:34 → 22:16](https://youtu.be/A9gVLrElETY)
+[Nisemonogatari – Episode 1 – 21:34 → 22:16](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/nisemonogatari-01-21:34-22:16.webm)
 
 ``` yaml
 Position: 21:34 → 22:16
@@ -505,7 +505,7 @@ Position: 21:34 → 22:16
 Added: 2018-03-22
 ```
 
-[Nisemonogatari – Episode 2 – 20:07 → 20:28](https://youtu.be/jWzWWYe74Fw)
+[Nisemonogatari – Episode 2 – 20:07 → 20:28](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/nisemonogatari-02-20:07-20:28.webm)
 
 ``` yaml
 Position: 20:07 → 20:28
@@ -526,7 +526,7 @@ Position: 20:07 → 20:28
 Added: 2018-03-14
 ```
 
-[![Nisemonogatari – Episode 6 – 06:57](https://i.imgur.com/3JuySL3.png)](https://imgur.com/3JuySL3)
+![Nisemonogatari – Episode 6 – 06:57](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/nisemonogatari-06-06:57.webp)
 
 ``` yaml
 Position: 06:57
@@ -540,7 +540,7 @@ Position: 06:57
 Added: 2018-05-21
 ```
 
-[Nisemonogatari – Episode 7 – 05:22 → 09:40](https://youtu.be/ZGU9sHxgHLQ)
+[Nisemonogatari – Episode 7 – 05:22 → 09:40](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/nisemonogatari-07-05:22-09:40.webm)
 
 ``` yaml
 Position: 05:22 → 09:40
@@ -668,7 +668,7 @@ Aired: 2013-07-07 → 2013-12-29
 Added: 2018-06-22
 ```
 
-[Nekomonogatari: White – Episode 2 – 17:57 → 22:40](https://youtu.be/OIhG9jbg0m4)
+[Nekomonogatari: White – Episode 2 – 17:57 → 22:40](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/nekomonogatari-white-02-17:57-22:40.webm)
 
 ``` yaml
 Position: 17:57 → 22:40
@@ -847,7 +847,7 @@ Position: 17:57 → 22:40
 Added: 2018-08-15
 ```
 
-[Nekomonogatari: White – Episode 3 – 15:09 → 15:54](https://youtu.be/vpSVq8Nl1rQ)
+[Nekomonogatari: White – Episode 3 – 15:09 → 15:54](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/nekomonogatari-white-03-15:09-15:54.webm)
 
 ``` yaml
 Position: 15:09 → 15:54
@@ -880,7 +880,7 @@ Aired: 2013-07-07 → 2013-12-29
 Added: 2018-06-22
 ```
 
-[Kabukimonogatari – Episode 1 – 06:34 → 07:08](https://youtu.be/dO49zKIy4IY)
+[Kabukimonogatari – Episode 1 – 06:34 → 07:08](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/kabukimonogatari-01-06:34-07:08.webm)
 
 ``` yaml
 Position: 06:34 → 07:08
@@ -923,7 +923,7 @@ Aired: 2013-07-07 → 2013-12-29
 Added: 2018-07-17
 ```
 
-[Koimonogatari – Episode 5 – 20:18 → 21:30](https://youtu.be/1_U5ExdaMNo)
+[Koimonogatari – Episode 5 – 20:18 → 21:30](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/koimonogatari-05-20:18-21:30.webm)
 
 ``` yaml
 Position: 20:18 → 21:30
@@ -959,7 +959,7 @@ Position: 20:18 → 21:30
 Added: 2018-07-17
 ```
 
-[Koimonogatari – Episode 6 – 07:50 → 17:03](https://youtu.be/SoZqW-47ypE)
+[Koimonogatari – Episode 6 – 07:50 → 17:03](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/koimonogatari-06-07:50-17:03.webm)
 
 ``` yaml
 Position: 07:50 → 17:03
@@ -1164,7 +1164,7 @@ Aired: 2014-08-16
 Added: 2018-07-19
 ```
 
-[Hanamonogatari – Episode 1 – 24:36 → 25:04](https://youtu.be/zSL8ZtvQpho)
+[Hanamonogatari – Episode 1 – 24:36 → 25:04](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/hanamonogatari-01-24:36-25:04.webm)
 
 ``` yaml
 Position: 24:36 → 25:04
@@ -1185,7 +1185,7 @@ Position: 24:36 → 25:04
 Added: 2018-07-23
 ```
 
-[Hanamonogatari – Episode 4 – 17:08 → 23:47](https://youtu.be/N_pht9x5fFE)
+[Hanamonogatari – Episode 4 – 17:08 → 23:47](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/hanamonogatari-04-17:08-23:47.webm)
 
 ``` yaml
 Position: 17:08 → 23:47
@@ -1396,7 +1396,7 @@ Aired: 2015-10-04 → 2015-12-20
 Added: 2018-09-28
 ```
 
-[Owarimonogatari – Episode 9 – 06:34 → 08:44](https://youtu.be/692Sja0gfPk)
+[Owarimonogatari – Episode 9 – 06:34 → 08:44](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/owarimonogatari-09-06:34-08:44.webm)
 
 ``` yaml
 Position: 06:34 → 08:44
@@ -1477,7 +1477,7 @@ Position: 06:34 → 08:44
 Added: 2018-10-03
 ```
 
-[Owarimonogatari – Episode 13 – 00:00 → 03:08](https://youtu.be/EOTdH8KLjJY)
+[Owarimonogatari – Episode 13 – 00:00 → 03:08](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/owarimonogatari-13-00:00-03:08.webm)
 
 ``` yaml
 Position: 00:00 → 03:08
@@ -1589,7 +1589,7 @@ Aired: 2016-01-10 → 2016-03-27
 Added: 2018-10-08
 ```
 
-[Koyomimonogatari – Episode 5 – 06:06 → 09:23](https://youtu.be/DkDi9QcZcB4)
+[Koyomimonogatari – Episode 5 – 06:06 → 09:23](https://github.com/alexherbo2/monogatari-series-citations/raw/master/media/koyomimonogatari-05-06:06-09:23.webm)
 
 ``` yaml
 Position: 06:06 → 09:23
