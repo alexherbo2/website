@@ -43,5 +43,9 @@ enableGitInfo = true
     url = "/citations"
 
   [[menu.navigation]]
+    name = "Wiki"
+    url = "/wiki"
+
+  [[menu.navigation]]
     name = "Projects"
     url = "https://github.com/alexherbo2?tab=repositories"
