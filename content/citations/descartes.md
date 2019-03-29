@@ -13,6 +13,8 @@ Published: 1637
 > omettent-elles presque toujours les plus basses et moins illustres
 > circonstances, d’où vient que le reste ne paraît pas tel qu’il est.
 
+--------------------------------------------------------------------------------
+
 > C’est difficile de grandir.  Au départ, tout semble aller de soi.  Mais, on
 > finit toujours par ressembler à ceux qu’on a rejetés.  On se rend compte un jour
 > qu’on est devenu « grand ».  C’est assurément un progrès.  Mais le résultat ne

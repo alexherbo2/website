@@ -15,6 +15,8 @@ Published: 1954-07-29
 > [Galadriel]’s voice-over: The world is changed.  Much that once was is lost,
 > for none now live who remember it.
 
+--------------------------------------------------------------------------------
+
 > Three Rings for the Elven-kings under the sky,  
 > Seven for the Dwarf-lords in their halls of stone,  
 > Nine for Mortal Men doomed to die,  
@@ -23,6 +25,8 @@ Published: 1954-07-29
 > One Ring to rule them all, One Ring to find them,  
 > One Ring to bring them all and in the darkness bind them  
 > In the Land of Mordor where the Shadows lie.
+
+--------------------------------------------------------------------------------
 
 > [Frodo Baggins][]: You’re late.
 >

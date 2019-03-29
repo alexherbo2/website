@@ -23,6 +23,8 @@ Translated: French
 > me répéter intérieurement que nous, les humains, sommes vraiment les architectes
 > de notre propre geôle.
 
+--------------------------------------------------------------------------------
+
 > Nous ne cessons de rêver d’une existence plus libre tout en nous enferrant de
 > plus en plus dans les obligations, dans les pièges domestiques.  Nous aimerions
 > tant partir, voyager légers, et cependant nous ne cessons pas d’accumuler de

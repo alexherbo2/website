@@ -17,6 +17,8 @@ Published: 2007-10-04
 > La vie est parfois rose, mais peut aussi avoir un sale goût ;
 > ce qui la rend finalement à peu près vivable.
 
+--------------------------------------------------------------------------------
+
 > Non mais c’est vrai quoi !  Pourquoi j’irais me casser la tête à pondre des
 > scénarios extravagants, alors que la vie réelle est déjà complètement improbable !
 > On cherche toujours une logique, une morale, des causes et des effets…
