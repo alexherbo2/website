@@ -14,7 +14,7 @@ enableGitInfo = true
 [params.pages]
   raw = "https://github.com/alexherbo2/website/raw/master/content/%s"
   history = "https://github.com/alexherbo2/website/commits/master/content/%s"
-  edit = "https://github.com/alexherbo2/website/blob/master/content/%s"
+  edit = "https://github.com/alexherbo2/website/edit/master/content/%s"
 
 [params.host]
   name = "GitHub"
