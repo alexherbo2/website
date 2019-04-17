@@ -18,7 +18,7 @@ illustrated in the excellent [Yann Esposito’s Password Management].
 ``` sh
 #!/bin/sh
 
-shasum --algorithm 512 | base64
+shasum -a 512 | base64
 ```
 
 `slice`
@@ -26,7 +26,7 @@ shasum --algorithm 512 | base64
 ``` sh
 #!/bin/sh
 
-cut --zero-terminated --characters $1
+cut -c $1 | head -n 1
 ```
 
 `alnum`

@@ -517,7 +517,7 @@ cave resolve --execute fonts/dejavu
 Disable bitmap fonts:
 
 ``` sh
-ln --symbolic /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
+ln -s /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
 ```
 
 ### Browsing

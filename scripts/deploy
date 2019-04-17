@@ -25,7 +25,7 @@ revision_short=$(git rev-parse --short HEAD)
 # Make sure the Public folder is sync with the remote repository
 if test ! -e public/.git; then
   message Cloning remote into Public/
-  rm --force --recursive public
+  rm -Rf public
   git clone git@github.com:alexherbo2/alexherbo2.github.io public
 else
   message Syncing remote to Public/
@@ -36,7 +36,7 @@ fi
 
 message Removing previous build commits before deploying…
 cd public
-GIT_EDITOR="sed '/^pick .* Build/d' --in-place" \
+GIT_EDITOR="sed -i '/^pick .* Build/d'" \
 git rebase --root --interactive
 cd -
 

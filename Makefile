@@ -8,7 +8,7 @@ deploy:
 	scripts/deploy
 
 clean:
-	rm --force --recursive build public resources
+	rm -Rf build public resources
 
 monogatari-series:
 	scripts/monogatari-series-cut
