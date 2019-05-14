@@ -1,7 +1,7 @@
-build:
+build: fetch
 	hugo
 
-serve:
+serve: fetch
 	hugo server --buildDrafts
 
 deploy:
@@ -13,7 +13,10 @@ netlify:
 	make build
 
 clean:
-	rm -Rf build public resources
+	rm -Rf build public resources static/packages
+
+fetch:
+	scripts/fetch
 
 monogatari-series:
 	scripts/monogatari-series-cut

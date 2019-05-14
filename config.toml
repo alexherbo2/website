@@ -10,6 +10,19 @@ enableGitInfo = true
   # https://golang.org/pkg/time#pkg-constants
   dateForm = "January 2, 2006"
   icon = "https://github.com/favicon.ico"
+  js = [
+    "packages/modal.js",
+    "packages/hint.js",
+    "packages/selection.js",
+    "packages/mouse.js",
+    "packages/clipboard.js",
+    "packages/scroll.js",
+    "packages/player.js",
+    "config.js"
+  ]
+  css = [
+    "packages/selection.css"
+  ]
 
 [params.pages]
   raw = "https://github.com/alexherbo2/website/raw/master/content/%s"
