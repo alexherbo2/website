@@ -15,24 +15,16 @@ message() {
   printf "${green}%s${default}\n" "${*}"
 }
 
-message Deploying updates to GitHub…
-
 # Variables
 branch=$(git rev-parse --abbrev-ref HEAD)
 revision=$(git rev-parse HEAD)
 revision_short=$(git rev-parse --short HEAD)
 
-# Make sure the Public folder is sync with the remote repository
-if test ! -e public/.git; then
-  message Cloning remote into Public/
-  rm -Rf public
-  git clone git@github.com:alexherbo2/alexherbo2.github.io public
-else
-  message Syncing remote to Public/
-  cd public
-  git pull
-  cd -
-fi
+message Cleaning…
+make clean
+
+message Cloning remote into Public/
+git clone git@github.com:alexherbo2/alexherbo2.github.io public
 
 message Removing previous build commits before deploying…
 cd public
@@ -43,7 +35,7 @@ cd -
 message Building the site…
 make build
 
-message Publishing…
+message Deploying updates to GitHub…
 cd public
 git add .
 git commit --file - <<EOF
