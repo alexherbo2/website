@@ -2455,6 +2455,139 @@ selections.on('selection-change', (selections) => updateStatusLine())
 
 ## Part 5: Polishment
 
+### Custom prompt
+
+The completed extension can be downloaded [here][Prompt].
+
+`scripts/prompt.js`
+
+``` javascript
+class Prompt {
+  constructor() {
+    // Events
+    this.events = {}
+    this.events['open'] = []
+    this.events['close'] = []
+    // Style
+    this.style = `
+      dialog {
+        position: fixed;
+        margin-right: 0;
+        top: 0;
+        right: 0;
+        color: gray;
+        background-color: white;
+        border: 1px solid lightgray;
+        border-bottom-left-radius: 4px;
+      }
+      input {
+        font-family: serif;
+        font-size: 18px;
+        background-color: white;
+        border: none;
+      }
+      input:focus {
+        outline: none;
+      }
+    `
+  }
+  on(type, listener) {
+    this.events[type].push(listener)
+  }
+  triggerEvent(type, ...parameters) {
+    for (const listener of this.events[type]) {
+      listener(...parameters)
+    }
+  }
+  fire(message) {
+    const dialog = document.createElement('dialog')
+    switch (typeof dialog.showModal) {
+      case 'function':
+        return this.fireDialog(message)
+        break
+      case 'undefined':
+        return this.firePrompt(message)
+        break
+    }
+  }
+  fireDialog(message) {
+    return new Promise((resolve, reject) => {
+      const root = document.createElement('div')
+      root.id = 'prompt'
+      // Place the prompt in a closed shadow root,
+      // so that the prompt and page styles won’t affect each other.
+      const shadow = root.attachShadow({ mode: 'closed' })
+      // Dialog
+      const dialog = document.createElement('dialog')
+      const form = document.createElement('form')
+      form.method = 'dialog'
+      const input = document.createElement('input')
+      input.placeholder = message
+      // Style
+      const style = document.createElement('style')
+      style.textContent = this.style
+      // Attach
+      shadow.append(style)
+      shadow.appendChild(dialog).appendChild(form).appendChild(input)
+      document.documentElement.append(root)
+      // Show modal
+      dialog.showModal()
+      this.triggerEvent('open')
+      // Events
+      dialog.addEventListener('close', () => {
+        resolve(dialog.returnValue)
+        this.triggerEvent('close')
+      })
+      form.addEventListener('submit', () => {
+        dialog.close(input.value)
+      })
+      dialog.addEventListener('cancel', () => {
+        dialog.close(null)
+      })
+      dialog.addEventListener('keydown', (event) => {
+        // Stop the propagation of the event
+        event.stopImmediatePropagation()
+      })
+    })
+  }
+  firePrompt(message) {
+    return new Promise((resolve, reject) => {
+      const value = window.prompt(message)
+      resolve(value)
+    })
+  }
+}
+```
+
+Update your configuration.
+
+`config.js`
+
+``` javascript
+// Prompt
+const prompt = new Prompt
+prompt.on('open', () => modal.unlisten())
+prompt.on('close', () => modal.listen())
+
+const keep = async (selections, matching, ...attributes) => {
+  const mode = matching ? 'Keep matching' : 'Keep not matching'
+  const value = await prompt.fire(`${mode} (${attributes})`)
+  if (value === null) {
+    return
+  }
+  const regex = new RegExp(value)
+  selections.filter((selection) => attributes.some((attribute) => regex.test(selection[attribute]) === matching))
+}
+
+const select = async (selections) => {
+  const value = await prompt.fire('Select (querySelectorAll)')
+  if (value === null) {
+    return
+  }
+  selections.select(value)
+}
+```
+
 ### Icons
 
 Add [icons][Manifest – Icons] for the extension.
@@ -3570,6 +3703,7 @@ The completed theme can be downloaded [here][Theme].
 [Configuration for surf]: https://github.com/alexherbo2/surf-configuration
 
 [Modal]: https://github.com/alexherbo2/modal.js
+[Prompt]: https://github.com/alexherbo2/prompt.js
 [Hint]: https://github.com/alexherbo2/hint.js
 [Selection]: https://github.com/alexherbo2/selection.js
 [Mouse]: https://github.com/alexherbo2/mouse.js
