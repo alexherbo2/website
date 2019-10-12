@@ -3548,14 +3548,20 @@ The completed extension can be downloaded [here][chrome-dmenu].
     "persistent": false
   },
   "icons": {
-    "16": "build/chrome.png",
-    "48": "build/chrome.png",
-    "128": "build/chrome.png"
+    "16": "build/suckless.png",
+    "48": "build/suckless.png",
+    "128": "build/suckless.png"
   }
 }
 ```
 
 See [chrome.commands] for more information.
+
+`fetch`
+
+``` sh
+fetch https://suckless.org/logo.svg suckless.svg
+```
 
 `background.js`
 
