@@ -3390,9 +3390,9 @@ Create the manifest and background script for the extension.
     "persistent": false
   },
   "icons": {
-    "16": "build/chrome.png",
-    "48": "build/chrome.png",
-    "128": "build/chrome.png"
+    "16": "build/chromium.png",
+    "48": "build/chromium.png",
+    "128": "build/chromium.png"
   }
 }
 ```
@@ -3431,7 +3431,7 @@ fetch() {
 mkdir -p packages
 cd packages
 
-fetch https://upload.wikimedia.org/wikipedia/commons/5/5f/Chromium_11_Logo.svg chrome.svg
+fetch https://upload.wikimedia.org/wikipedia/commons/5/5f/Chromium_11_Logo.svg chromium.svg
 ```
 
 `extension/Makefile`
@@ -3439,7 +3439,7 @@ fetch https://upload.wikimedia.org/wikipedia/commons/5/5f/Chromium_11_Logo.svg c
 ``` makefile
 build: fetch
 	mkdir -p build
-	inkscape --without-gui packages/chrome.svg --export-png build/chrome.png
+	inkscape --without-gui packages/chromium.svg --export-png build/chromium.png
 
 fetch:
 	./fetch
