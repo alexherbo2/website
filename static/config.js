@@ -8,6 +8,11 @@ const updateStatusLine = () => {
 
 // Modal
 const modal = new Modal('Modal')
+modal.activeElement = () => {
+  return selections.length
+    ? selections.mainSelection
+    : document.activeElement
+}
 modal.enable('Video', 'Link', 'Text', 'Command')
 modal.on('context-change', (context) => updateStatusLine())
 
@@ -70,7 +75,7 @@ const notify = (message) => {
 }
 
 const click = (selections, modifierKeys = {}) => {
-  const elements = selections.includes(document.activeElement)
+  const elements = selections.length
     ? selections.collection
     : [document.activeElement]
   for (const element of elements) {
@@ -79,7 +84,7 @@ const click = (selections, modifierKeys = {}) => {
 }
 
 const yank = (selections, callback, message) => {
-  const text = selections.includes(document.activeElement)
+  const text = selections.length
     ? selections.map(callback).join('\n')
     : callback(document.activeElement)
   copyToClipboard(text, message)
@@ -91,7 +96,7 @@ const copyToClipboard = (text, message) => {
 }
 
 const player = () => {
-  const media = Modal.findParent((element) => element.querySelector('video'))
+  const media = modal.findParent((element) => element.querySelector('video'))
   Mouse.hover(media)
   return new Player(media)
 }
@@ -171,6 +176,10 @@ modal.map('Command', ['Alt', 'KeyK'], () => keep(selections, true, 'textContent'
 modal.map('Command', ['Alt', 'Shift', 'KeyK'], () => keep(selections, true, 'href'), 'Keep links that match the given RegExp')
 modal.map('Command', ['Alt', 'KeyJ'], () => keep(selections, false, 'textContent'), 'Clear selections that match the given RegExp')
 modal.map('Command', ['Alt', 'Shift', 'KeyJ'], () => keep(selections, false, 'href'), 'Clear links that match the given RegExp')
+
+// Phantom selections
+modal.map('Command', ['Shift', 'KeyZ'], () => selections.save(), 'Save selections')
+modal.map('Command', ['KeyZ'], () => selections.restore(), 'Restore selections')
 
 // Unfocus
 modal.map('Page', ['Escape'], () => document.activeElement.blur(), 'Unfocus active element')
