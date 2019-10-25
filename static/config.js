@@ -13,7 +13,7 @@ modal.activeElement = () => {
     ? selections.mainSelection
     : document.activeElement
 }
-modal.enable('Video', 'Link', 'Text', 'Command')
+modal.enable('Video', 'Image', 'Link', 'Text', 'Command')
 modal.on('context-change', (context) => updateStatusLine())
 
 // Prompt
@@ -195,6 +195,9 @@ modal.map('Command', ['Shift', 'KeyY'], () => copyToClipboard(`[${document.title
 modal.map('Link', ['KeyY'], () => yank(selections, (selection) => selection.href, 'Link address copied'), 'Copy link address')
 modal.map('Link', ['Alt', 'KeyY'], () => yank(selections, (selection) => selection.textContent, 'Link text copied'), 'Copy link text')
 modal.map('Link', ['Shift', 'KeyY'], () => yank(selections, (selection) => `[${selection.textContent}](${selection.href})`, 'Link address and text copied'), 'Copy link address and text')
+modal.map('Image', ['KeyY'], () => yank(selections, (selection) => selection.src, 'Image address copied'), 'Copy image address')
+modal.map('Image', ['Alt', 'KeyY'], () => yank(selections, (selection) => selection.alt, 'Image description copied'), 'Copy image description')
+modal.map('Image', ['Shift', 'KeyY'], () => yank(selections, (selection) => `[${selection.alt}](${selection.src})`, 'Image address and description copied'), 'Copy image address and description')
 
 // Player
 modal.map('Video', ['Space'], () => player().pause(), 'Pause video')
