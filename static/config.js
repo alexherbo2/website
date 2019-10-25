@@ -1,7 +1,21 @@
 // Status line ─────────────────────────────────────────────────────────────────
 
 const updateStatusLine = () => {
-  modal.notify({ id: 'status-line', message: `${modal.context.name} (${selections.length})` })
+  const atoms = []
+  // Context
+  atoms.push(modal.context.name)
+  // Selections
+  switch (selections.length) {
+    case 0:
+      break
+    case 1:
+      atoms.push('(1)')
+      break
+    default:
+      atoms.push(`(${selections.main + 1}/${selections.length})`)
+  }
+  const statusLine = atoms.join(' ')
+  modal.notify({ id: 'status-line', message: statusLine })
 }
 
 // Modes ───────────────────────────────────────────────────────────────────────
