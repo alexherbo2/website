@@ -104,7 +104,7 @@ This post is written for [Chrome], but can be adapted to the browser of your lik
 ## Try It
 
 - Make sure to deactivate your extension and browser bindings.
-- Press `Alt` + `Escape` to activate [Modal](/config.js).
+- Press `Alt` + `Escape` to activate [Krabby](/packages/krabby.js).
 - Press `F1` for help.
 
 {{< table-of-contents >}}

@@ -19,7 +19,7 @@ enableGitInfo = true
     "packages/clipboard.js",
     "packages/scroll.js",
     "packages/player.js",
-    "config.js"
+    "packages/krabby.js"
   ]
   css = [
     "packages/selection.css"
