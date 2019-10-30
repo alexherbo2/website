@@ -107,6 +107,8 @@ This post is written for [Chrome], but can be adapted to the browser of your lik
 - Press `Alt` + `Escape` to activate [Krabby](/packages/krabby.js).
 - Press `F1` for help.
 
+**Note**: Commands are bound to **physical keys** and **displayed** with the [US layout][QWERTY].
+
 {{< table-of-contents >}}
 
 ## Getting Started
@@ -3722,6 +3724,8 @@ The completed theme can be downloaded [here][Theme].
 [Shell]: https://github.com/alexherbo2/chrome-shell
 [chrome-dmenu]: https://github.com/alexherbo2/chrome-dmenu
 [Theme]: https://github.com/alexherbo2/chrome-theme
+
+[QWERTY]: https://en.wikipedia.org/wiki/QWERTY
 
 [Chrome Developer Dashboard]: https://chrome.google.com/webstore/developer/dashboard
 [Publish in the Chrome Web Store]: https://developer.chrome.com/webstore/publish
