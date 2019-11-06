@@ -332,3 +332,15 @@ Context: Harry Gueguen
 > A message to lead myself here.
 >
 > (_Rose Tyler_, _Doctor Who_, _The Parting of the Ways_, _Season 1_, _Episode 13_)
+
+--------------------------------------------------------------------------------
+
+> Nothing lasts forever.  Forever is a lie.  All we have is what’s in between hello and goodbye.
+> (_Yahiko_, [OtakuStream], _2019-11-06_)
+
+``` yaml
+Added: 2019-11-06
+Context: End of OtakuStream
+```
+
+[OtakuStream]: https://otakustream.tv
