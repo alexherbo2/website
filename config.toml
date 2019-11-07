@@ -22,7 +22,8 @@ enableGitInfo = true
     "packages/krabby.js"
   ]
   css = [
-    "packages/selection.css"
+    "packages/selection.css",
+    "packages/krabby.css"
   ]
 
 [params.pages]
