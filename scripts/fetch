@@ -12,4 +12,4 @@ cd static/packages
 
 fetch https://github.com/alexherbo2/krabby/raw/master/website/krabby.js
 fetch https://github.com/alexherbo2/krabby/raw/master/src/krabby.css
-curl -sSL https://github.com/alexherbo2/krabby/raw/master/scripts/fetch | sh
+fetch https://github.com/alexherbo2/krabby/raw/master/scripts/fetch - | sh
