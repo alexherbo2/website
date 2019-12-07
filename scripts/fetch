@@ -10,6 +10,6 @@ fetch() {
 mkdir -p static/packages
 cd static/packages
 
-fetch https://github.com/alexherbo2/krabby/raw/master/website/krabby.js
-fetch https://github.com/alexherbo2/krabby/raw/master/src/krabby.css
+fetch https://github.com/alexherbo2/krabby/raw/master/src/krabby/web/krabby.js
+fetch https://github.com/alexherbo2/krabby/raw/master/src/krabby/web/krabby.css
 fetch https://github.com/alexherbo2/krabby/raw/master/scripts/fetch - | sh
