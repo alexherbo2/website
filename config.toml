@@ -12,6 +12,7 @@ enableGitInfo = true
   icon = "https://github.com/favicon.ico"
   js = [
     "packages/modal.js",
+    "packages/mouse-selection.js",
     "packages/prompt.js",
     "packages/hint.js",
     "packages/mark.js",
