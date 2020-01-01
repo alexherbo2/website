@@ -21,3 +21,7 @@ bind-key Escape set-option key-table root ';' display-message 'Exit mode'
 bind-key '#{prefix}' set-option key-table prefix
 bind-key Escape set-option key-table root
 ```
+
+See also [Make tmux modal].
+
+[Make tmux modal]: ../make-tmux-modal/
