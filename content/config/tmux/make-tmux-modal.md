@@ -15,6 +15,15 @@ bind-key -n C-Space set-option key-table prefix ';' display-message 'Enter prefi
 bind-key Escape set-option key-table root ';' display-message 'Exit mode'
 ```
 
+You might want to display the current mode in the status line.
+
+`~/.tmux.conf`
+
+```
+set-option -g status-left '[#{session_name}] [#{client_key_table}] '
+set-option -g status-left-length 0
+```
+
 See also [tmux: Add prefix mode].
 
 [tmux: Add prefix mode]: ../add-prefix-mode/
