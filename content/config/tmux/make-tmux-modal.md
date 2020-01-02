@@ -11,8 +11,8 @@ date: 2020-01-01
 
 ```
 set-option -g prefix None
-bind-key -n C-Space set-option key-table prefix ';' display-message 'Enter prefix mode'
-bind-key Escape set-option key-table root ';' display-message 'Exit mode'
+bind-key -n C-Space set-option key-table prefix
+bind-key Escape set-option key-table root
 ```
 
 You might want to display the current mode in the status line.
@@ -20,9 +20,11 @@ You might want to display the current mode in the status line.
 `~/.tmux.conf`
 
 ```
-set-option -g status-left '[#{session_name}] [#{client_key_table}] '
+set-option -g status-left '[#{session_name}] #{?#{!=:#{client_key_table},root},[#{client_key_table}] ,}'
 set-option -g status-left-length 0
 ```
+
+**Note**: Only display active modes in the status line.
 
 See also [tmux: Add prefix mode].
 
