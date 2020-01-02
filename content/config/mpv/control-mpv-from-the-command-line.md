@@ -4,6 +4,8 @@ title: Control mpv from the command-line
 
 ## Configuration
 
+Enable the IPC support to control [mpv] from the command-line.
+
 `~/.config/mpv/mpv.conf`
 
 ```
@@ -36,4 +38,5 @@ echo playlist-prev | socat - "$XDG_CONFIG_HOME/mpv/socket"
 
 You can add a key-binding to `XF86AudioPrev` [media control][Media controls].
 
+[mpv]: https://mpv.io
 [Media controls]: https://cgit.freedesktop.org/xorg/proto/x11proto/tree/XF86keysym.h
