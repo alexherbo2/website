@@ -3,8 +3,8 @@ title: 'tmux: Add prefix mode'
 date: 2019-12-28
 ---
 
-- Enter _prefix mode_ with the prefix key.
-- Exit mode with `Escape`.
+- Enter _prefix mode_ (yellow) with the prefix key.
+- Exit mode (green) with `Escape`.
 
 `~/.tmux.conf`
 
@@ -12,11 +12,11 @@ date: 2019-12-28
 run-shell {
   tmux bind-key #{prefix} \
     set-option key-table prefix '\;' \
-    display-message 'Enter prefix mode'
+    set-option status-bg yellow
 }
 bind-key Escape {
   set-option key-table root
-  display-message 'Exit mode'
+  set-option status-bg green
 }
 ```
 

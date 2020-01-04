@@ -4,15 +4,21 @@ date: 2020-01-01
 ---
 
 - Unset prefix.
-- Enter _prefix mode_ with `Control` + `Space`.
-- Exit mode with `Escape`.
+- Enter _prefix mode_ (yellow) with `Control` + `Space`.
+- Exit mode (green) with `Escape`.
 
 `~/.tmux.conf`
 
 ```
 set-option -g prefix None
-bind-key -n C-Space set-option key-table prefix
-bind-key Escape set-option key-table root
+bind-key -n C-Space {
+  set-option key-table prefix
+  set-option status-bg yellow
+}
+bind-key Escape {
+  set-option key-table root
+  set-option status-bg green
+}
 ```
 
 You might want to display the current mode in the status line.
