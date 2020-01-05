@@ -32,6 +32,17 @@ set-option -g status-left-length 0
 
 **Note**: Only display active modes in the status line.
 
+## Quirks
+
+Restore _root table_ on detach.
+
+`~/.tmux.conf`
+
+```
+set-hook -g client-detached[0] 'set-option key-table root'
+set-hook -g client-detached[1] 'set-option status-bg green'
+```
+
 See also [tmux: Add prefix mode].
 
 [tmux: Add prefix mode]: ../add-prefix-mode/
