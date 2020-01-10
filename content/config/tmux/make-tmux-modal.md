@@ -43,6 +43,18 @@ set-hook -g client-detached[0] 'set-option key-table root'
 set-hook -g client-detached[1] 'set-option status-bg green'
 ```
 
+Restore _root table_ in _tree mode_.
+
+`~/.tmux.conf`
+
+```
+bind-key s {
+  choose-tree -Z -s
+  set-option key-table root
+  set-option status-bg green
+}
+```
+
 See also [tmux: Add prefix mode].
 
 [tmux: Add prefix mode]: ../add-prefix-mode/
