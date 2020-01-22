@@ -14,8 +14,8 @@ cut() {
   else
     extension=${in##*.}
     cut=cut.$extension
-    ffmpeg-cut -out "$cut" "$in" "$start" "$end"
-    ffmpeg-burn -out "file:$out" "$cut"
+    ffmpeg-cut "$in" "$start" "$end" "$cut"
+    ffmpeg-burn "$cut" "file:$out"
     rm "$cut"
     echo "Done: $out"
   fi
@@ -29,8 +29,8 @@ shot() {
   else
     extension=${in##*.}
     cut=cut.$extension
-    ffmpeg-cut -out "$cut" "$in" "$position"
-    ffmpeg-burn -out "file:$out" "$cut"
+    ffmpeg-cut "$in" "$position" "$cut"
+    ffmpeg-burn "$cut" "file:$out"
     rm "$cut"
     echo "Done: $out"
   fi
