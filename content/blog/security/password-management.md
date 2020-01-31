@@ -26,7 +26,7 @@ shasum -a 512 | base64
 ``` sh
 #!/bin/sh
 
-cut -c $1 | head -n 1
+cut -c "$1" | head -n 1
 ```
 
 `alnum`
@@ -34,7 +34,7 @@ cut -c $1 | head -n 1
 ``` sh
 #!/bin/sh
 
-sed s/[^[:alnum:]]//g
+tr -c -d [:alnum:]
 ```
 
 `make-password`
@@ -47,7 +47,7 @@ domain=$2
 password=$3
 length=${4:-10}
 
-printf "$name@$domain:$password" | encrypt | slice 1-$length
+printf '%s\n' "$name@$domain:$password" | encrypt | slice "1-$length"
 ```
 
 ### Usage
@@ -76,40 +76,78 @@ make-password alexherbo2 example.com my-unique-password | alnum
 
 ### The Material
 
-`get-password`
+`shard.yml`
 
-``` ruby
-#!/usr/bin/env ruby
+``` yaml
+name: tools
+version: 0.1.0
+license: Unlicense
+targets:
+  get-password:
+    main: src/get-password.cr
+  menu-password:
+    main: src/menu-password.cr
+```
 
-require 'yaml'
+`src/get-password.cr`
 
-data = YAML.load(File.read(File.join(ENV['XDG_CONFIG_HOME'], 'passwords.yml')))
+``` crystal
+require "yaml"
 
-key = ARGV.join(' ')
+CONFIG = File.join(
+  ENV["XDG_CONFIG_HOME"],
+  "passwords.yml"
+)
 
-begin
-  puts data[key].last
-rescue
-  exit 1
+alias Passwords = Hash(String, Array(String))
+
+passwords = File.open(CONFIG) do |file|
+  Passwords.from_yaml(file)
+end
+
+key = ARGV.first
+puts passwords[key].last
+```
+
+`src/menu-password.cr`
+
+``` crystal
+require "yaml"
+
+CONFIG = File.join(
+  ENV["XDG_CONFIG_HOME"],
+  "passwords.yml"
+)
+
+alias Passwords = Hash(String, Array(String))
+
+passwords = File.open(CONFIG) do |file|
+  Passwords.from_yaml(file)
+end
+
+case ARGV.size
+when 0
+  puts passwords.keys.join('\n')
+when 1
+  key = ARGV.first
+  puts passwords[key].last
 end
 ```
 
-`menu-password`
+`Makefile`
 
-``` ruby
-#!/usr/bin/env ruby
+``` makefile
+build:
+	shards build --release
 
-require 'yaml'
+clean:
+	rm -Rf bin
+```
 
-data = YAML.load(File.read(File.join(ENV['XDG_CONFIG_HOME'], 'passwords.yml')))
+`.gitignore`
 
-key = ARGV.join(' ')
-
-if not key.empty?
-  puts data[key].last
-else
-  puts data.keys.join("\n")
-end
+```
+bin
 ```
 
 `make-password`
