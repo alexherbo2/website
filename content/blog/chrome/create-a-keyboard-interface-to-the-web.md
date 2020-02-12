@@ -3690,6 +3690,10 @@ Keyword: 'j'
 URL: 'javascript:'
 ```
 
+See also [Keyboard shortcut to deselect omnibox in Chrome].
+
+[Keyboard shortcut to deselect omnibox in Chrome]: https://superuser.com/questions/726447/keyboard-shortcut-to-deselect-omnibox-in-chrome
+
 ### Create a theme for Chrome
 
 The completed theme can be downloaded [here][Theme].
