@@ -20,7 +20,7 @@ bind-key Escape {
 }
 ```
 
-**Note**: `bind-key` does not work with variables, hence using `run-shell` instead of the following configuration.
+**Note**: `bind-key` does not work with variables, hence using `run-shell` instead of the following configuration:
 
 `~/.tmux.conf`
 
