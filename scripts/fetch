@@ -23,4 +23,4 @@ cd static/packages
 # Fetch packages
 fetch https://github.com/alexherbo2/krabby/raw/master/src/krabby/web/krabby.js
 fetch https://github.com/alexherbo2/krabby/raw/master/src/krabby/web/krabby.css
-fetch https://github.com/alexherbo2/krabby/raw/master/scripts/fetch - | sh
+fetch https://github.com/alexherbo2/krabby/raw/master/scripts/fetch - | sh -s -- .
