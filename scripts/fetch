@@ -16,9 +16,11 @@ fetch() {
   esac
 }
 
+# Ensure the base directory exists
 mkdir -p static/packages
 cd static/packages
 
+# Fetch packages
 fetch https://github.com/alexherbo2/krabby/raw/master/src/krabby/web/krabby.js
 fetch https://github.com/alexherbo2/krabby/raw/master/src/krabby/web/krabby.css
 fetch https://github.com/alexherbo2/krabby/raw/master/scripts/fetch - | sh
