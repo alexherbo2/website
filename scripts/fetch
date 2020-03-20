@@ -23,4 +23,6 @@ cd static/packages
 # Fetch packages
 fetch https://github.com/alexherbo2/krabby/raw/master/src/krabby/web/krabby.js
 fetch https://github.com/alexherbo2/krabby/raw/master/src/krabby/web/krabby.css
-fetch https://github.com/alexherbo2/krabby/raw/master/scripts/fetch - | sh -s -- .
+# Fix bizarre error
+fetch https://github.com/alexherbo2/krabby/raw/master/scripts/fetch - | sh -s -- . 2> /dev/null
+exit 0
