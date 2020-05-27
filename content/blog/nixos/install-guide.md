@@ -38,6 +38,10 @@ Wipe the file system:
 wipefs [--all -a] /dev/sda
 ```
 
+### Option 1: [GParted]
+
+[GParted]: https://gparted.org
+
 Create the partitions, formats and labels:
 
 ``` sh
@@ -71,6 +75,50 @@ You can use [GParted] or [gdisk], but I recommend GParted for discoverability.
   - File system: `ext4`
   - Label: NixOS
 5. Apply modifications
+
+### Option 2: [GPT fdisk]
+
+[GPT fdisk]: https://rodsbooks.com/gdisk/
+
+Create the partitions:
+
+``` sh
+gdisk /dev/sda
+# GUID table:
+# Press 'o' to create a new empty GUID partition table (GPT)
+# Boot (EFI):
+# Press 'n' for new partition
+# – Partition number: 1 – should be default
+# – First sector: Use default
+# – Last sector: +512M
+# – Hex code: ef00 (EFI system partition)
+# Press 'c' to change partition’s name
+# – Partition number: 1
+# – Partition name: EFI
+# Root:
+# Press 'n' for new partition
+# – Partition number: 2 – should be default
+# – First sector: Use default
+# – Last sector: Use default
+# – Hex code: 8300 (Linux filesystem) – should be default
+# Press 'c' to change partition’s name
+# – Partition number: 2
+# – Partition name: NixOS
+# Press 'w' to write table to disk and exit
+```
+
+Format and label the file systems for each partition:
+
+``` sh
+mkfs.fat -F 32 /dev/sda1 -n EFI # Boot (EFI)
+fatlabel /dev/sda1 EFI # Optional, to label a FAT disk after its creation
+mkfs.ext4 /dev/sda2 -L NixOS # Root
+e2label /dev/sda2 NixOS # Optional, to label an ext disk after its creation
+```
+
+**Note**: Many partitioning tools do not create filesystems; they just create the
+partitions in which filesystems can be created.  To create a filesystem, you need
+to use commands such as `mkfs`.
 
 ## 4. [Installing]
 
