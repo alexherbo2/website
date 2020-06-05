@@ -48,6 +48,10 @@ enableGitInfo = true
     name = "YouTube"
     url = "https://youtube.com/channel/UCv9nzkds34PnGOu6u_QvVBQ"
 
+  [[menu.social]]
+    name = "Instagram"
+    url = "https://instagram.com/alexherbo2"
+
   [[menu.navigation]]
     name = "Blog"
     url = "/blog"
