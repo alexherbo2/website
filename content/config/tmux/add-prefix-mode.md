@@ -29,6 +29,10 @@ bind-key '#{prefix}' set-option key-table prefix
 bind-key Escape set-option key-table root
 ```
 
+**Discussion**: [reddit • tmux • Add prefix mode]
+
+[reddit • tmux • Add prefix mode]: https://reddit.com/r/tmux/comments/ehkjp5/add_prefix_mode/
+
 See also [Make tmux modal].
 
 [Make tmux modal]: ../make-tmux-modal/

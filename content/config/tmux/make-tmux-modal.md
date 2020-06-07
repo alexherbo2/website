@@ -55,6 +55,10 @@ bind-key s {
 }
 ```
 
+**Discussion**: [reddit • tmux • Make tmux modal]
+
+[reddit • tmux • Make tmux modal]: https://reddit.com/r/tmux/comments/einuqy/make_tmux_modal/
+
 See also [tmux: Add prefix mode].
 
 [tmux: Add prefix mode]: ../add-prefix-mode/
