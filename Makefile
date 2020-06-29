@@ -17,6 +17,3 @@ clean:
 
 fetch:
 	scripts/fetch
-
-monogatari-series:
-	scripts/monogatari-series-cut
