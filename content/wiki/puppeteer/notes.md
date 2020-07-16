@@ -30,7 +30,7 @@ Scrape [Chrome APIs]:
 ``` json
 {
   "dependencies": {
-    "puppeteer": "^3.0.4"
+    "puppeteer": "^5.1.0"
   }
 }
 ```
