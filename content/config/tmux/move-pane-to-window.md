@@ -34,3 +34,7 @@ bind-key ')' run-shell 'tmux-move-pane-to-window 10'
 **Discussion**: [reddit • tmux • Move pane to window]
 
 [reddit • tmux • Move pane to window]: https://reddit.com/r/tmux/comments/hs5cra/move_pane_to_window/
+
+See also [Switch or create workspace].
+
+[Switch or create workspace]: ../switch-or-create-workspace/

@@ -36,3 +36,7 @@ bind-key -n M-0 run-shell 'tmux-select-window 10'
 **Discussion**: [reddit • tmux • Switch or create workspace]
 
 [reddit • tmux • Switch or create workspace]: https://reddit.com/r/tmux/comments/houfb6/switch_or_create_workspace/
+
+See also [Move pane to window].
+
+[Move pane to window]: ../move-pane-to-window/
