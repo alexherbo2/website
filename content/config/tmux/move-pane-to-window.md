@@ -31,6 +31,8 @@ bind-key '(' run-shell 'tmux-move-pane-to-window 9'
 bind-key ')' run-shell 'tmux-move-pane-to-window 10'
 ```
 
+**Note**: It is `Shift` + `<number>` on the US layout.
+
 **Discussion**: [reddit • tmux • Move pane to window]
 
 [reddit • tmux • Move pane to window]: https://reddit.com/r/tmux/comments/hs5cra/move_pane_to_window/
