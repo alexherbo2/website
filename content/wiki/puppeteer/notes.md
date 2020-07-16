@@ -6,6 +6,12 @@ date: 2020-05-11
 
 {{< table-of-contents >}}
 
+## Repository
+
+- [puppeteer-experiments]
+
+[puppeteer-experiments]: https://github.com/alexherbo2/puppeteer-experiments
+
 ## Links
 
 - https://pptr.dev
