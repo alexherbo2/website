@@ -1,17 +1,16 @@
-define-command show-episodes %{ evaluate-commands -save-regs '"B' %{
-  set-register B %val(bufname)
-  edit! -scratch *episodes*
-  evaluate-commands -draft %{
-    buffer %reg(B)
-    execute-keys '%1s^Position:\h+([^\n]+)$<ret>'
-    evaluate-commands -draft -itersel %{
-      execute-keys 'Z<a-/>^###\h+([^\n]+)<ret>1s<ret><a-Z>a<a-/>^##\h+([^\n]+)<ret>1s<ret><a-z>a'
-      set-register dquote %reg(.)
-      buffer *episodes*
-      execute-keys '<a-o>j<a-P>)<a-space>i – <esc>'
-    }
-    buffer *episodes*
-    execute-keys ggd
+# ## <season>
+# ...
+# ### <episode>
+# ...
+# Position: <position>
+define-command show-episodes-paste-and-select %{
+  execute-keys '%s^Position: <ret>lGl'
+  execute-keys -draft 'o1 – 2 – 3'
+  evaluate-commands -draft -itersel %{
+    execute-keys -save-regs '' 'Z'
+    execute-keys 'yf3;R'
+    execute-keys '<a-/>^### <ret>lGlyzf2;R'
+    execute-keys '<a-/>^## <ret>lGlyzf1;R'
   }
-  execute-keys '%|tac<ret><a-s>_'
-}}
+  execute-keys 'jx_'
+}
