@@ -57,6 +57,10 @@ enableGitInfo = true
     url = "/blog"
 
   [[menu.navigation]]
+    name = "Projects"
+    url = "/projects"
+
+  [[menu.navigation]]
     name = "Config"
     url = "/config"
 
@@ -67,7 +71,3 @@ enableGitInfo = true
   [[menu.navigation]]
     name = "Wiki"
     url = "/wiki"
-
-  [[menu.navigation]]
-    name = "Projects"
-    url = "https://github.com/alexherbo2?tab=repositories"
