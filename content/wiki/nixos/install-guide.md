@@ -2,7 +2,6 @@
 title: NixOS – Installation Guide
 description: The steps I followed to install and configure NixOS
 date: 2018-09-13
-draft: true
 ---
 
 ## About

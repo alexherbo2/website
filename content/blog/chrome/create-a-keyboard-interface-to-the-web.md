@@ -2,7 +2,6 @@
 title: Create a keyboard interface to the web
 description: A keyboard interface to the web, inspired by Kakoune
 date: 2019-03-05
-draft: true
 ---
 
 **PostEdit**:
