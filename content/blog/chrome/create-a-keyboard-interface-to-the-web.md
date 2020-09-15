@@ -5,6 +5,18 @@ date: 2019-03-05
 draft: true
 ---
 
+**PostEdit**:
+
+  The roadmap to create a vi-like browser extension from scratch,
+  from experimenting things in the console to [native][Native messaging] and [cross-extension][Cross-extension messaging] messaging.
+  The first version of [Krabby] 🦀.
+
+[Krabby]: https://krabby.netlify.app
+[Native messaging]: https://developer.chrome.com/extensions/nativeMessaging
+[Cross-extension messaging]: https://developer.chrome.com/extensions/messaging#external
+
+---
+
 This post is written for [Chrome], but can be adapted to the browser of your liking.
 
 - [Configuration][Configuration for Chrome] and [default shortcuts][Chrome keyboard shortcuts] for [Chrome]
