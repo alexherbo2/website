@@ -25,6 +25,8 @@ This post is written for [Chrome], but can be adapted to the browser of your lik
 
 ## Demos
 
+[Krabby – Introduction](https://youtu.be/AZERfhHo8w4)
+
 ### Download 3-gatsu no Lion episodes from HorribleSubs
 
 [Download 3-gatsu no Lion episodes from HorribleSubs](https://youtu.be/aXaFt75lIqo)
