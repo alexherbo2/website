@@ -14,6 +14,7 @@ run-shell {
     set-option key-table prefix '\;' \
     set-option status-bg yellow
 }
+
 bind-key Escape {
   set-option key-table root
   set-option status-bg green
