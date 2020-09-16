@@ -3,7 +3,7 @@ title: 'tmux: Add prefix mode'
 date: 2019-12-28
 ---
 
-- Enter _prefix mode_ (yellow) with the prefix key.
+- Enter _prefix mode_ (yellow) with the prefix key (type the prefix key twice).
 - Exit mode (green) with `Escape`.
 
 `~/.tmux.conf`
