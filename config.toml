@@ -1,6 +1,6 @@
 baseURL = "https://alexherbo2.github.io"
 languageCode = "en-us"
-title = "Alex"
+title = "alexherbo2"
 theme = "steve-losh"
 
 buildDrafts = true
