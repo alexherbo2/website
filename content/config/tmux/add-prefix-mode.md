@@ -10,24 +10,24 @@ date: 2019-12-28
 
 ```
 run-shell {
-  tmux bind-key #{prefix} \
-    set-option key-table prefix '\;' \
-    set-option status-bg yellow
+  tmux bind-key #{prefix} set-option key-table prefix
 }
 
-bind-key Escape {
-  set-option key-table root
-  set-option status-bg green
-}
+bind-key Escape set-option key-table root
 ```
 
-**Note**: `bind-key` does not work with variables, hence using `run-shell` instead of the following configuration:
+**Note**: `bind-key` does not work with variables, hence using `run-shell` instead of simply:
+
+```
+bind-key '#{prefix}' set-option key-table prefix
+```
+
+You might want to display the current mode with a different color in the status line.
 
 `~/.tmux.conf`
 
 ```
-bind-key '#{prefix}' set-option key-table prefix
-bind-key Escape set-option key-table root
+set-option -g status-style 'fg=black,bg=#{?#{==:#{client_key_table},root},green,yellow}'
 ```
 
 **Discussion**: [reddit • tmux • Add prefix mode]

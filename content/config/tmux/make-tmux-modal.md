@@ -11,21 +11,16 @@ date: 2020-01-01
 
 ```
 set-option -g prefix None
-bind-key -n C-Space {
-  set-option key-table prefix
-  set-option status-bg yellow
-}
-bind-key Escape {
-  set-option key-table root
-  set-option status-bg green
-}
+bind-key -n C-Space set-option key-table prefix
+bind-key Escape set-option key-table root
 ```
 
-You might want to display the current mode in the status line.
+You might want to display the current mode with a different color in the status line.
 
 `~/.tmux.conf`
 
 ```
+set-option -g status-style 'fg=black,bg=#{?#{==:#{client_key_table},root},green,yellow}'
 set-option -g status-left '[#{session_name}] #{?#{!=:#{client_key_table},root},[#{client_key_table}] ,}'
 set-option -g status-left-length 0
 ```
@@ -40,7 +35,6 @@ Restore _root table_ on detach.
 
 ```
 set-hook -g client-detached[0] 'set-option key-table root'
-set-hook -g client-detached[1] 'set-option status-bg green'
 ```
 
 Restore _root table_ in _tree mode_.
@@ -51,7 +45,6 @@ Restore _root table_ in _tree mode_.
 bind-key s {
   choose-tree -Z -s
   set-option key-table root
-  set-option status-bg green
 }
 ```
 
