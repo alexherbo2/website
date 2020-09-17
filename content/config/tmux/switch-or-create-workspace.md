@@ -15,7 +15,7 @@ Switch to window:
 
 `~/.tmux.conf`
 
-```
+``` tmux
 bind-key 1 run-shell 'tmux-select-window 1'
 bind-key 2 run-shell 'tmux-select-window 2'
 bind-key 3 run-shell 'tmux-select-window 3'
@@ -32,7 +32,7 @@ Same without prefix:
 
 `~/.tmux.conf`
 
-```
+``` tmux
 bind-key -n M-1 run-shell 'tmux-select-window 1'
 bind-key -n M-2 run-shell 'tmux-select-window 2'
 bind-key -n M-3 run-shell 'tmux-select-window 3'

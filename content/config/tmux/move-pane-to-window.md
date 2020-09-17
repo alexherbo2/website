@@ -12,7 +12,7 @@ Move focused pane to window:
 
 `~/.tmux.conf`
 
-```
+``` tmux
 bind-key '!' run-shell 'tmux-move-pane-to-window 1'
 bind-key '@' run-shell 'tmux-move-pane-to-window 2'
 bind-key '#' run-shell 'tmux-move-pane-to-window 3'

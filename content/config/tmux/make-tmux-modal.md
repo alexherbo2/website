@@ -9,7 +9,7 @@ date: 2020-01-01
 
 `~/.tmux.conf`
 
-```
+``` tmux
 set-option -g prefix None
 bind-key -n C-Space set-option key-table prefix
 bind-key Escape set-option key-table root
@@ -19,7 +19,7 @@ You might want to display the current mode with a different color in the status 
 
 `~/.tmux.conf`
 
-```
+``` tmux
 set-option -g status-style 'fg=black,bg=#{?#{==:#{client_key_table},root},green,yellow}'
 set-option -g status-left '[#{session_name}] #{?#{!=:#{client_key_table},root},[#{client_key_table}] ,}'
 set-option -g status-left-length 0
@@ -33,7 +33,7 @@ Restore _root table_ on detach.
 
 `~/.tmux.conf`
 
-```
+``` tmux
 set-hook -g client-detached[0] 'set-option key-table root'
 ```
 
@@ -41,7 +41,7 @@ Restore _root table_ in _tree mode_.
 
 `~/.tmux.conf`
 
-```
+``` tmux
 bind-key s {
   choose-tree -Z -s
   set-option key-table root
