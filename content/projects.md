@@ -37,6 +37,20 @@ title: Projects
 [Batch processing]: https://en.wikipedia.org/wiki/Batch_processing
 [Roman numerals]: https://en.wikipedia.org/wiki/Roman_numerals
 
+### Tools
+
+- [ffmpeg-tools] ⇒ [FFmpeg] tools
+- [sway-tools] ⇒ [Sway] tools
+- [tmux-tools] ⇒ [tmux] tools
+
+[ffmpeg-tools]: https://github.com/alexherbo2/ffmpeg-tools
+[sway-tools]: https://github.com/alexherbo2/sway-tools
+[tmux-tools]: https://github.com/alexherbo2/tmux-tools
+
+[FFmpeg]: https://ffmpeg.org
+[Sway]: https://swaywm.org
+[tmux]: https://github.com/tmux/tmux
+
 ## JavaScript libraries
 
 - [node.js] is a [tree] [node-based][m-ary tree] implementation in JavaScript.
