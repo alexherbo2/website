@@ -3,18 +3,12 @@ title: 'tmux: Move pane to window'
 date: 2020-07-16
 ---
 
+Using [`tmux-move-pane-to-window`] from [tmux-tools].
+
+[tmux-tools]: https://github.com/alexherbo2/tmux-tools
+[`tmux-move-pane-to-window`]: https://github.com/alexherbo2/tmux-tools/blob/master/bin/tmux-move-pane-to-window
+
 Move focused pane to window:
-
-`tmux-move-pane-to-window`
-
-``` sh
-#!/bin/sh
-
-target_window=$1
-source_window=$(tmux display-message -p '#{window_index}')
-tmux join-pane -t ":$target_window"
-tmux select-window -t "$source_window"
-```
 
 `~/.tmux.conf`
 

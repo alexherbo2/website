@@ -3,18 +3,13 @@ title: 'tmux: Switch or create workspace'
 date: 2020-07-10
 ---
 
+Using [`tmux-select-window`] from [tmux-tools].
+
+[tmux-tools]: https://github.com/alexherbo2/tmux-tools
+[`tmux-select-window`]: https://github.com/alexherbo2/tmux-tools/blob/master/bin/tmux-select-window
+
 Switches to the specified window.
 If the window does not exist, it will be created.
-
-`tmux-select-window`
-
-``` sh
-#!/bin/sh
-
-target_window=$1
-tmux new-window -t "$target_window" ||
-tmux select-window -t "$target_window"
-```
 
 Switch to window:
 
