@@ -29,6 +29,6 @@ services.postgresql.dataDir = "/data/postgresql";
 ## Setup
 
 ```
-sudo [--user -u] postgres createuser [--username -U] postgres [--superuser -s] alex
-sudo [--user -u] postgres createdb alex
+sudo [--user -u] postgres createuser [--username -U] postgres [--superuser -s] taupiqueur
+sudo [--user -u] postgres createdb taupiqueur
 ```

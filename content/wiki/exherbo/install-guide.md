@@ -233,7 +233,7 @@ Configure your hostname for `systemd`:
 `/etc/hostname`
 
 ```
-othala
+kanto
 ```
 
 Make sure your hostname is mapped to `localhost` in `/etc/hosts`,
@@ -242,8 +242,8 @@ otherwise some packages test suites will fail because of network sandboxing.
 `/etc/hosts`
 
 ```
-127.0.0.1 localhost othala
-::1 localhost othala
+127.0.0.1 localhost kanto
+::1 localhost kanto
 ```
 
 If you need additional kernel support e.g. for an Intel wireless card,
@@ -330,19 +330,19 @@ cave update-world [--set -s] stages
 Add a new user for daily use:
 
 ``` sh
-useradd [--create-home -m] [--groups -G] adm,disk,wheel,cdrom,audio,video,usb,users alex
+useradd [--create-home -m] [--groups -G] adm,disk,wheel,cdrom,audio,video,usb,users taupiqueur
 ```
 
 To add groups:
 
 ``` sh
-usermod [--append -a] [--groups -G] {groups} alex
+usermod [--append -a] [--groups -G] {groups} taupiqueur
 ```
 
 Set user password:
 
 ``` sh
-passwd alex
+passwd taupiqueur
 ```
 
 Install [`app-admin/sudo`]:
@@ -685,7 +685,7 @@ on, you use a sync suffix to specify a local path too.  For example:
 `/etc/paludis/repositories/arbor.conf`
 
 ```
-sync = git+https://git.exherbo.org/git/arbor.git local: git+file:///home/alex/exherbo/exheres/arbor
+sync = git+https://git.exherbo.org/git/arbor.git local: git+file:///home/taupiqueur/exherbo/exheres/arbor
 ```
 
 Where `~/exherbo/exheres/arbor` is a personal copy of the repository.

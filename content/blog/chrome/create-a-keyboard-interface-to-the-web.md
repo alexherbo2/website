@@ -3083,7 +3083,7 @@ cd chrome-shell
 {
   "name": "shell",
   "description": "Native messaging host to execute external commands",
-  "path": "/home/alex/projects/chrome-shell/host/bin/chrome-shell",
+  "path": "/home/taupiqueur/projects/chrome-shell/host/bin/chrome-shell",
   "type": "stdio",
   "allowed_origins": [
     "chrome-extension://ohgecdnlcckpfnhjepfdcdgcfgebkdgl/"
