@@ -223,3 +223,25 @@ title: Projects
 [palette.kak]: https://github.com/alexherbo2/palette.kak
 [search-highlighter.kak]: https://github.com/alexherbo2/search-highlighter.kak
 [volatile-highlighter.kak]: https://github.com/alexherbo2/volatile-highlighter.kak
+
+## Elvish modules
+
+[Elvish] is a friendly interactive shell and an expressive programming language.
+
+[Elvish]: https://elv.sh
+
+### Elvish – Libraries
+
+- [path-abbr.elv] ⇒ abbreviate paths by shortening the parent directories.
+
+[path-abbr.elv]: https://github.com/alexherbo2/path-abbr.elv
+
+### Elvish – Integrations
+
+- [broot.elv] ⇒ [Broot] integration.
+- [kakoune.elv] ⇒ [Kakoune] integration.
+
+[broot.elv]: https://github.com/alexherbo2/broot.elv
+[kakoune.elv]: https://github.com/alexherbo2/kakoune.elv
+
+[Broot]: https://dystroy.org/broot/
