@@ -2,6 +2,8 @@
 title: Projects
 ---
 
+{{< table-of-contents >}}
+
 ## Browser extensions
 
 - [Krabby] is a browser extension for keyboard-based navigation, inspired by [Kakoune].
