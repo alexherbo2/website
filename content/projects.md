@@ -161,6 +161,7 @@ title: Projects
 - [split-object.kak] ⇒ add the ability to split object selections.
 - [toggle-highlighter.kak] ⇒ add a `toggle-highlighter` command.
 - [type-expand.kak] ⇒ expand [typed expansions] in insert mode.
+- [view-mode.kak] ⇒ a better view mode.
 - [word-select.kak] ⇒ make `w` to move by word instead of word start.
 
 [capitalize-selections.kak]: https://github.com/alexherbo2/capitalize-selections.kak
@@ -173,6 +174,7 @@ title: Projects
 [split-object.kak]: https://github.com/alexherbo2/split-object.kak
 [toggle-highlighter.kak]: https://github.com/alexherbo2/toggle-highlighter.kak
 [type-expand.kak]: https://github.com/alexherbo2/type-expand.kak
+[view-mode.kak]: https://github.com/alexherbo2/view-mode.kak
 [word-select.kak]: https://github.com/alexherbo2/word-select.kak
 
 [`change-directory`]: https://github.com/mawww/kakoune/blob/master/doc/pages/commands.asciidoc#files-and-buffers
