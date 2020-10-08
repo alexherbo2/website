@@ -153,6 +153,7 @@ title: Projects
 
 - [capitalize-selections.kak] ⇒ capitalize selections.
 - [change-directory.kak] ⇒ provide [`change-directory`] related commands: change to the buffer or Git root directory.
+- [edit.kak] ⇒ provide various edit commands.
 - [evaluate-selections.kak] ⇒ add an `evaluate-selections` command.
 - [move-line.kak] ⇒ move selected lines up and down.
 - [objectify.kak] ⇒ create text objects without setting your hair on fire.
@@ -166,6 +167,7 @@ title: Projects
 
 [capitalize-selections.kak]: https://github.com/alexherbo2/capitalize-selections.kak
 [change-directory.kak]: https://github.com/alexherbo2/change-directory.kak
+[edit.kak]: https://github.com/alexherbo2/edit.kak
 [evaluate-selections.kak]: https://github.com/alexherbo2/evaluate-selections.kak
 [move-line.kak]: https://github.com/alexherbo2/move-line.kak
 [objectify.kak]: https://github.com/alexherbo2/objectify.kak
