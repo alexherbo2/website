@@ -103,11 +103,29 @@ title: Projects
 
 [hugo-theme-steve-losh]: https://github.com/alexherbo2/hugo-theme-steve-losh
 
+## Termux
+
+[Termux] is an Android terminal emulator.
+
+[Termux]: https://termux.com
+
+### Termux – Configuration
+
+- [termux-configuration] ⇒ a minimal and ergonomic Termux configuration for coding with [Kakoune].
+
+[termux-configuration]: https://github.com/alexherbo2/termux-configuration
+
 ## Kakoune plugins
 
 [Kakoune] is a code editor based around the concept of multiple selections.
 
 [Kakoune]: https://kakoune.org
+
+### Kakoune – Configuration
+
+- [termux.kak] ⇒ an ergonomic Kakoune configuration for [Termux].
+
+[termux.kak]: https://github.com/alexherbo2/termux.kak
 
 ### Kakoune – Meta
 
