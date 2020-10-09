@@ -121,6 +121,12 @@ title: Projects
 
 [Kakoune]: https://kakoune.org
 
+### Kakoune – Plugin manager
+
+- [plug.kak] ⇒ plugin manager.
+
+[plug.kak]: https://github.com/alexherbo2/plug.kak
+
 ### Kakoune – Configuration
 
 - [termux.kak] ⇒ an ergonomic Kakoune configuration for [Termux].
