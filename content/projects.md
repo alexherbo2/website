@@ -228,6 +228,7 @@ title: Projects
 - [jq.kak] ⇒ [jq] integration
 - [mkdir.kak] ⇒ [mkdir] integration
 - [snippets.kak] ⇒ [Snippets] integration
+- [wl-clipboard.kak] ⇒ clipboard integration for Wayland with [wl-clipboard].
 
 [batch.kak]: https://github.com/alexherbo2/batch.kak
 [bc.kak]: https://github.com/alexherbo2/bc.kak
@@ -235,10 +236,12 @@ title: Projects
 [jq.kak]: https://github.com/alexherbo2/jq.kak
 [mkdir.kak]: https://github.com/alexherbo2/mkdir.kak
 [snippets.kak]: https://github.com/alexherbo2/snippets.kak
+[wl-clipboard.kak]: https://github.com/alexherbo2/wl-clipboard.kak
 
 [bc]: https://en.wikipedia.org/wiki/Bc_(programming_language)
 [jq]: https://stedolan.github.io/jq/
 [mkdir]: https://en.wikipedia.org/wiki/Mkdir
+[wl-clipboard]: https://github.com/bugaevc/wl-clipboard
 
 ### Kakoune – Highlighters
 
