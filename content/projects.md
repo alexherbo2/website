@@ -179,6 +179,7 @@ title: Projects
 - [change-directory.kak] ⇒ provide [`change-directory`] related commands: change to the buffer or Git root directory.
 - [edit.kak] ⇒ provide various edit commands.
 - [evaluate-selections.kak] ⇒ add an `evaluate-selections` command.
+- [execute-key.kak] ⇒ execute a single key with arbitrary content.
 - [move-line.kak] ⇒ move selected lines up and down.
 - [objectify.kak] ⇒ create text objects without setting your hair on fire.
 - [pad-number.kak] ⇒ pad numbers with leading zeros.
@@ -193,6 +194,7 @@ title: Projects
 [change-directory.kak]: https://github.com/alexherbo2/change-directory.kak
 [edit.kak]: https://github.com/alexherbo2/edit.kak
 [evaluate-selections.kak]: https://github.com/alexherbo2/evaluate-selections.kak
+[execute-key.kak]: https://github.com/alexherbo2/execute-key.kak
 [move-line.kak]: https://github.com/alexherbo2/move-line.kak
 [objectify.kak]: https://github.com/alexherbo2/objectify.kak
 [pad-number.kak]: https://github.com/alexherbo2/pad-number.kak
