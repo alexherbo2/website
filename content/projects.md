@@ -170,10 +170,12 @@ title: Projects
 - [auto-pairs.kak] ⇒ auto-paired characters.
 - [surround.kak] ⇒ surround selections with quotes, tags, etc.
 - [manual-indent.kak] ⇒ indent with `Tab`, deindent with `Backspace`.
+- [sleuth.kak] ⇒ heuristically set buffer options.
 
 [auto-pairs.kak]: https://github.com/alexherbo2/auto-pairs.kak
 [surround.kak]: https://github.com/alexherbo2/surround.kak
 [manual-indent.kak]: https://github.com/alexherbo2/manual-indent.kak
+[sleuth.kak]: https://github.com/alexherbo2/sleuth.kak
 
 ### Kakoune – Extensions
 
