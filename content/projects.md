@@ -103,6 +103,16 @@ title: Projects
 
 [hugo-theme-steve-losh]: https://github.com/alexherbo2/hugo-theme-steve-losh
 
+## Alacritty
+
+[Alacritty] is a terminal emulator.
+
+[Alacritty]: https://github.com/alacritty/alacritty
+
+- [Extended keys][alacritty-extended-keys]
+
+[alacritty-extended-keys]: https://github.com/alexherbo2/alacritty-extended-keys
+
 ## Termux
 
 [Termux] is an Android terminal emulator.
