@@ -151,6 +151,12 @@ title: Projects
 [prelude.kak]: https://github.com/alexherbo2/prelude.kak
 [tip.kak]: https://github.com/alexherbo2/tip.kak
 
+### Kakoune – Windowing
+
+- [alacritty.kak] ⇒ [Alacritty] integration.
+
+[alacritty.kak]: https://github.com/alexherbo2/alacritty.kak
+
 ### Kakoune – Integrated environment
 
 - [connect.kak] ⇒ connect programs to Kakoune clients.
