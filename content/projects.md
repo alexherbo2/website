@@ -154,24 +154,25 @@ title: Projects
 ### Kakoune – Windowing
 
 - [alacritty.kak] ⇒ [Alacritty] integration.
+- [terminal-mode.kak] ⇒ a mode to easily switch between the various windowing systems ([Alacritty], [iTerm], [kitty], [Screen], [tmux], [X11]).
 
 [alacritty.kak]: https://github.com/alexherbo2/alacritty.kak
-
-### Kakoune – Integrated environment
-
-- [connect.kak] ⇒ connect programs to Kakoune clients.
-- [explore.kak] ⇒ explore files and buffers with the command implementation of your choice.
-- [terminal-mode.kak] ⇒ a mode to easily switch between the various windowing systems ([iTerm], [kitty], [Screen], [tmux], [X11]).
-
-[connect.kak]: https://github.com/alexherbo2/connect.kak
-[explore.kak]: https://github.com/alexherbo2/explore.kak
 [terminal-mode.kak]: https://github.com/alexherbo2/terminal-mode.kak
 
+[Alacritty]: https://github.com/alacritty/alacritty
 [iTerm]: https://iterm2.com
 [kitty]: https://sw.kovidgoyal.net/kitty/
 [Screen]: https://gnu.org/software/screen/
 [tmux]: https://github.com/tmux/tmux
 [X11]: https://x.org
+
+### Kakoune – Integrated environment
+
+- [connect.kak] ⇒ connect programs to Kakoune clients.
+- [explore.kak] ⇒ explore files and buffers with the command implementation of your choice.
+
+[connect.kak]: https://github.com/alexherbo2/connect.kak
+[explore.kak]: https://github.com/alexherbo2/explore.kak
 
 ### Kakoune – Interfaces
 
