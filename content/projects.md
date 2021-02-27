@@ -22,6 +22,7 @@ title: Projects
 
 ## CLIs
 
+- [kakoune.cr] (kcr) is a command-line tool for [Kakoune].
 - [Batch] is a command-line program for [batch processing].
 - [Chronic] is a natural language date-time parser.
 - [Snippets] is an editor agnostic command-line tool for managing snippets.
@@ -29,6 +30,7 @@ title: Projects
 - [Launcher] is a tiny application launcher.
 - [roman-numeral.rb] is a command-line program and library for parsing and generating [Roman numerals].
 
+[kakoune.cr]: https://github.com/alexherbo2/kakoune.cr
 [Batch]: https://github.com/alexherbo2/batch
 [Chronic]: https://github.com/alexherbo2/chronic
 [Snippets]: https://github.com/alexherbo2/snippets
