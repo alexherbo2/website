@@ -404,31 +404,28 @@ and populate the contents with `/etc/paludis/repository.template`.
 
 ### Shell
 
-At the time being, there is no [Elvish] package supported officially.
-
-To create your own, see [Exheres for Smarties] and the next section
-[Creating your own packages].
-
-Once `app-shells/elvish` has been added:
+Install [Nushell]:
 
 ``` sh
-cave resolve --execute app-shells/elvish
+cave resolve --execute app-shells/nu
 ```
+
+[Nushell]: https://nushell.sh
 
 You can also change your default shell, but it may be risky to log in a custom shell.
 
-If you want it, first add the full path to Elvish to `/etc/shells`:
+If you want it, first add the full path of Nushell to `/etc/shells`:
 
 `/etc/shells`
 
 ```
-/bin/elvish
+/bin/nu
 ```
 
 Then change your shell with:
 
 ``` sh
-chsh [--shell -s] /bin/elvish
+chsh [--shell -s] /bin/nu
 ```
 
 ### Networking
@@ -621,31 +618,30 @@ profile_eapi_when_unspecified = exheres-0
 masters = arbor
 ```
 
-Create your first package.  As an example, we’ll create `app-shells/elvish` and
-use the [Go][`go.exlib`] [exlib][Exlibs].
+Create your first package.  As an example, we’ll create `app-editors/kakoune`.
 
-`packages/app-shells/elvish/elvish-scm.exheres-0`
+`packages/app-editors/kakoune/kakoune-scm.exheres-0`
 
 ```
-SUMMARY='Friendly interactive shell and expressive programming language'
-HOMEPAGE='https://elv.sh'
+SUMMARY='mawww’s experiment for a better code editor'
+HOMEPAGE='https://kakoune.org'
 
-require go [ project=github.com/elves/elvish ]
+require kakoune
 
-LICENSES='BSD-2'
+LICENSES='Unlicense'
 PLATFORMS='~amd64 ~x86'
 ```
 
 `metadata/categories.conf`
 
 ```
-app-shells
+app-editors
 ```
 
 `metadata/repository_mask.conf`
 
 ```
-app-shells/elvish[~scm] [[
+app-editors/kakoune[~scm] [[
   author = [ alexherbo2 <alexherbo2@gmail.com> ]
   date = [ 04 Apr 2019 ]
   token = scm
@@ -743,9 +739,7 @@ Go back to syncing without the suffix.
 [Get Ubuntu]: http://releases.ubuntu.com
 [ALSA]: https://alsa-project.org
 [Chromium]: https://chromium.org
-[Elvish]: https://elv.sh
 [Exheres for Smarties]: https://exherbo.com/docs/eapi/exheres-for-smarties.html
-[Exlibs]: https://exherbo.org/docs/eapi/exheres-for-smarties.html#exlibs
 [Masked by unavailable]: https://exherbo.org/docs/faq.html#masked_by_unavailable
 [Exherbo – GitLab (Documentation)]: https://exherbo.org/docs/gitlab.html
 [Installation Guide]: https://exherbo.org/docs/install-guide.html
@@ -757,7 +751,6 @@ Go back to syncing without the suffix.
 [`logind`]: https://freedesktop.org/wiki/Software/systemd/logind/
 [`systemd-boot`]: https://freedesktop.org/wiki/Software/systemd/systemd-boot/
 [`systemd`]: https://freedesktop.org/wiki/Software/systemd/
-[`go.exlib`]: https://git.exherbo.org/arbor.git/tree/exlibs/go.exlib
 [`app-admin/sudo`]: https://git.exherbo.org/summer/packages/app-admin/sudo/
 [`sys-apps/systemd`]: https://git.exherbo.org/summer/packages/sys-apps/systemd/
 [`sys-devel/gdb`]: https://git.exherbo.org/summer/packages/sys-devel/gdb/
