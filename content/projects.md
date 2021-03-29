@@ -45,15 +45,12 @@ title: Projects
 
 - [ffmpeg-tools] ⇒ [FFmpeg] tools
 - [sway-tools] ⇒ [Sway] tools
-- [tmux-tools] ⇒ [tmux] tools
 
 [ffmpeg-tools]: https://github.com/alexherbo2/ffmpeg-tools
 [sway-tools]: https://github.com/alexherbo2/sway-tools
-[tmux-tools]: https://github.com/alexherbo2/tmux-tools
 
 [FFmpeg]: https://ffmpeg.org
 [Sway]: https://swaywm.org
-[tmux]: https://github.com/tmux/tmux
 
 ## JavaScript libraries
 
