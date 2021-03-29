@@ -127,10 +127,8 @@ title: Projects
 ### Kakoune – Meta
 
 - [prelude.kak] ⇒ prelude of shell blocks.
-- [tip.kak] ⇒ Learn Kakoune from tips each day.
 
 [prelude.kak]: https://github.com/alexherbo2/prelude.kak
-[tip.kak]: https://github.com/alexherbo2/tip.kak
 
 ### Kakoune – Windowing
 
