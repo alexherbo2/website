@@ -124,12 +124,6 @@ title: Projects
 
 [plug.kak]: https://github.com/alexherbo2/plug.kak
 
-### Kakoune – Meta
-
-- [prelude.kak] ⇒ prelude of shell blocks.
-
-[prelude.kak]: https://github.com/alexherbo2/prelude.kak
-
 ### Kakoune – Windowing
 
 - [alacritty.kak] ⇒ [Alacritty] integration.
@@ -147,10 +141,8 @@ title: Projects
 
 ### Kakoune – Integrated environment
 
-- [connect.kak] ⇒ connect programs to Kakoune clients.
 - [explore.kak] ⇒ explore files and buffers with the command implementation of your choice.
 
-[connect.kak]: https://github.com/alexherbo2/connect.kak
 [explore.kak]: https://github.com/alexherbo2/explore.kak
 
 ### Kakoune – Interfaces
