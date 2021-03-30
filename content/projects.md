@@ -127,7 +127,7 @@ title: Projects
 ### Kakoune – Windowing
 
 - [alacritty.kak] ⇒ [Alacritty] integration.
-- [terminal-mode.kak] ⇒ a mode to easily switch between the various windowing systems ([Alacritty], [iTerm], [kitty], [Screen], [tmux], [X11]).
+- [terminal-mode.kak] ⇒ a mode to easily switch between the various windowing systems ([Alacritty], [iTerm], [kitty], [Screen], [tmux], [Wayland], [X11]).
 
 [alacritty.kak]: https://github.com/alexherbo2/alacritty.kak
 [terminal-mode.kak]: https://github.com/alexherbo2/terminal-mode.kak
@@ -137,6 +137,7 @@ title: Projects
 [kitty]: https://sw.kovidgoyal.net/kitty/
 [Screen]: https://gnu.org/software/screen/
 [tmux]: https://github.com/tmux/tmux
+[Wayland]: https://wayland.freedesktop.org
 [X11]: https://x.org
 
 ### Kakoune – Integrated environment
