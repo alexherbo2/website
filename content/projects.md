@@ -43,12 +43,15 @@ title: Projects
 
 ### Tools
 
+- [git-tools] ⇒ [Git] tools
 - [ffmpeg-tools] ⇒ [FFmpeg] tools
 - [sway-tools] ⇒ [Sway] tools
 
+[git-tools]: https://github.com/alexherbo2/git-tools
 [ffmpeg-tools]: https://github.com/alexherbo2/ffmpeg-tools
 [sway-tools]: https://github.com/alexherbo2/sway-tools
 
+[Git]: https://git-scm.com
 [FFmpeg]: https://ffmpeg.org
 [Sway]: https://swaywm.org
 
