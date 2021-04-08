@@ -344,3 +344,17 @@ Context: End of OtakuStream
 ```
 
 [OtakuStream]: https://otakustream.tv
+
+--------------------------------------------------------------------------------
+
+> And so the sextuplets wandered into a maze with no exit, with the task of reviving this anime in front of them.
+> Despite being older than twenty, they couldn’t find anything to do.
+> They lazed around all day and, with only their bodies becoming adult, they had become Osomatsu-san.
+> ([Osomatsu-san], _Season 1_, _Episode 1_, _18:11 → 18:39_)
+
+``` yaml
+Added: 2021-04-08
+Context: AKHTS
+```
+
+[Osomatsu-san]: https://myanimelist.net/anime/31174/Osomatsu-san
