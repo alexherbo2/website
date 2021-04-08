@@ -347,6 +347,8 @@ Context: End of OtakuStream
 
 --------------------------------------------------------------------------------
 
+[Osomatsu-san × Matching](https://youtu.be/fyrn0ej2gsg)
+
 > And so the sextuplets wandered into a maze with no exit, with the task of reviving this anime in front of them.
 > Despite being older than twenty, they couldn’t find anything to do.
 > They lazed around all day and, with only their bodies becoming adult, they had become Osomatsu-san.
