@@ -180,6 +180,7 @@ title: Projects
 - [objectify.kak] ⇒ create text objects without setting your hair on fire.
 - [pad-number.kak] ⇒ pad numbers with leading zeros.
 - [phantom.kak] ⇒ iterate selections, one by one.
+- [search.kak] ⇒ search and jump.
 - [split-object.kak] ⇒ add the ability to split object selections.
 - [toggle-highlighter.kak] ⇒ add a `toggle-highlighter` command.
 - [view-mode.kak] ⇒ a better view mode.
@@ -194,6 +195,7 @@ title: Projects
 [objectify.kak]: https://github.com/alexherbo2/objectify.kak
 [pad-number.kak]: https://github.com/alexherbo2/pad-number.kak
 [phantom.kak]: https://github.com/alexherbo2/phantom.kak
+[search.kak]: https://github.com/alexherbo2/search.kak
 [split-object.kak]: https://github.com/alexherbo2/split-object.kak
 [toggle-highlighter.kak]: https://github.com/alexherbo2/toggle-highlighter.kak
 [view-mode.kak]: https://github.com/alexherbo2/view-mode.kak
