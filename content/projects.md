@@ -55,6 +55,13 @@ title: Projects
 [FFmpeg]: https://ffmpeg.org
 [Sway]: https://swaywm.org
 
+## Tutorials
+
+- [active-record.rb] is a step-by-step implementation of the [active record pattern] for educational purposes.
+
+[active-record.rb]: https://github.com/alexherbo2/active-record.rb
+[Active record pattern]: https://en.wikipedia.org/wiki/Active_record_pattern
+
 ## JavaScript libraries
 
 - [node.js] is a [tree] [node-based][m-ary tree] implementation in JavaScript.
