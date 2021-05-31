@@ -17,6 +17,15 @@ title: Citations
 
 --------------------------------------------------------------------------------
 
+> We can’t undo the mistakes we’ve made.
+> All we can do is try and find a way to make up for them.
+>
+> (_Shāng Bù Huàn_ to _Làng Wū Yáo_ about _Mù Tiān Mìng_, [Thunderbolt Fantasy], _Season 3_, _Episode 9_, _18:11 → 18:19_)
+
+[Thunderbolt Fantasy]: https://en.wikipedia.org/wiki/Thunderbolt_Fantasy
+
+--------------------------------------------------------------------------------
+
 > Ne vous blâmez pas ainsi, la perfection n’existe pas.  Ce monde est imparfait,
 > vous le constatez tous les jours.  Et c’est pour ça qu’il est intéressant d’y
 > vivre.
