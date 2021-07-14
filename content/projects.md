@@ -62,6 +62,20 @@ title: Projects
 [active-record.rb]: https://github.com/alexherbo2/active-record.rb
 [Active record pattern]: https://en.wikipedia.org/wiki/Active_record_pattern
 
+## Crystal libraries
+
+- [walk.cr] is a [Crystal] library for walking a directory recursively.
+- [fifo.cr] is a [Crystal] library for using [FIFOs][FIFO].
+- [rsub.cr] is a [Crystal] library for string replacement from the right-hand side.
+- [shell-escape.cr] is a [Crystal] library and command-line program to escape strings, so that it can be safely used in a shell command-line.
+
+[Crystal]: https://crystal-lang.org
+[FIFO]: https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)
+[walk.cr]: https://github.com/alexherbo2/walk.cr
+[fifo.cr]: https://github.com/alexherbo2/fifo.cr
+[rsub.cr]: https://github.com/alexherbo2/rsub.cr
+[shell-escape.cr]: https://github.com/alexherbo2/shell-escape.cr
+
 ## JavaScript libraries
 
 - [node.js] is a [tree] [node-based][m-ary tree] implementation in JavaScript.
