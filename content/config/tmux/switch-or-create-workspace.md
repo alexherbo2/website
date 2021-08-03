@@ -28,23 +28,6 @@ bind-key 9 run-shell 'tmux-select-window 9'
 bind-key 0 run-shell 'tmux-select-window 10'
 ```
 
-Same without prefix:
-
-`~/.tmux.conf`
-
-``` tmux
-bind-key -n M-1 run-shell 'tmux-select-window 1'
-bind-key -n M-2 run-shell 'tmux-select-window 2'
-bind-key -n M-3 run-shell 'tmux-select-window 3'
-bind-key -n M-4 run-shell 'tmux-select-window 4'
-bind-key -n M-5 run-shell 'tmux-select-window 5'
-bind-key -n M-6 run-shell 'tmux-select-window 6'
-bind-key -n M-7 run-shell 'tmux-select-window 7'
-bind-key -n M-8 run-shell 'tmux-select-window 8'
-bind-key -n M-9 run-shell 'tmux-select-window 9'
-bind-key -n M-0 run-shell 'tmux-select-window 10'
-```
-
 **Discussion**: [reddit • tmux • Switch or create workspace]
 
 [reddit • tmux • Switch or create workspace]: https://reddit.com/r/tmux/comments/houfb6/switch_or_create_workspace/
